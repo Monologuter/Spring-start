@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--使用spring来创建我们的对象 在spring里面的这些都称为bean-->
+
+    <bean id="mysqlImpl" class="dell.educy.dao.UserDaoMysqlImpl"/>
+    <bean id="sqlserverImpl" class="dell.educy.dao.UserDaoSqlServerImpl"/>
+    <bean id="UserServiceImpl" class="dell.educy.service.UserServiceImpl">
+        <!--ref代表的是spring中创建好的对象  value是一个具体的值-->
+<!--        <property name="userDao" ref="mysqlImpl"></property>-->
+        <property name="userDao" ref="sqlserverImpl"></property>
+
+
+    </bean>
+
+
+
+
+
+</beans>
