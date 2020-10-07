@@ -2,18 +2,21 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-start-02-hello" />
         <module name="spring-start-01" />
+        <module name="spring-start-03-IOC" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Spring-start" target="8" />
-      <module name="spring-start-01" target="8" />
-      <module name="spring-start-02-hello" target="8" />
+      <module name="Spring-start" target="1.7" />
+      <module name="spring-start-01" target="1.7" />
+      <module name="spring-start-02-hello" target="1.7" />
+      <module name="spring-start-03-IOC" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
