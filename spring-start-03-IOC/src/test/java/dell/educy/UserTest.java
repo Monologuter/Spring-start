@@ -15,7 +15,9 @@ public class UserTest {
     public static void main(String[] args) {
         ApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
         User user = (User) classPathXmlApplicationContext.getBean("user");
+
         user.show();
+
 
     }
 }

@@ -9,9 +9,9 @@
 
     <bean id="hello"  class="dell.educy.pojo.Hello">
         <property name="str" value="Spring" />
-
-
-
     </bean>
+
+
+
 
 </beans>

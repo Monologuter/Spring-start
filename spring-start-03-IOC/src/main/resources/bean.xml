@@ -45,10 +45,6 @@
     <!--如果取了别名 我们也可以使用别名进行获取到 直接使用原来的名字也是可以的-->
     <alias name="user" alias="cyyuser"/>
 
-    <import resource="bean.xml"/>
-    <import resource="bean2.xml"/>
-    <import resource="bean3.xml"/>
-
 
 
 </beans>

@@ -1,22 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="21b9b8b0-fe5f-4cd6-bd3e-b14fab1ac227" name="Default Changelist" comment="readme.md">
-      <change afterPath="$PROJECT_DIR$/spring-start-03-IOC/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-start-03-IOC/spring-start-03-IOC.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-start-03-IOC/src/main/java/dell/educy/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-start-03-IOC/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-start-03-IOC/src/test/java/dell/educy/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Spring-start.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Spring-start.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="21b9b8b0-fe5f-4cd6-bd3e-b14fab1ac227" name="Default Changelist" comment="IOC创建对象四种方式">
+      <change afterPath="$PROJECT_DIR$/spring-start-03-IOC/src/main/java/dell/educy/UserT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-start-03-IOC/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-start-03-IOC/src/main/resources/bean2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-start-03-IOC/src/main/resources/bean3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-01/spring-start-01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-01/spring-start-01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-01/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-01/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-02-hello/spring-start-02-hello.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-02-hello/spring-start-02-hello.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-start-02-hello/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-02-hello/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-start-03-IOC/spring-start-03-IOC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-03-IOC/spring-start-03-IOC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-start-03-IOC/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-03-IOC/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-start-03-IOC/src/test/java/dell/educy/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-03-IOC/src/test/java/dell/educy/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-start-03-IOC/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-03-IOC/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-start-03-IOC/target/test-classes/dell/educy/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-03-IOC/target/test-classes/dell/educy/UserTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +86,9 @@
       <recent name="$PROJECT_DIR$/spring-start-02-hello/src/test/java" />
       <recent name="$PROJECT_DIR$/spring-start-02-hello/src/main/resources" />
       <recent name="$PROJECT_DIR$/spring-start-02-hello/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dell.educy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spring-start-03-IOC/src/main/resources" />
@@ -159,7 +177,9 @@
       <workItem from="1602069291894" duration="185000" />
       <workItem from="1602069495027" duration="3657000" />
       <workItem from="1602078306485" duration="184000" />
-      <workItem from="1602078504344" duration="987000" />
+      <workItem from="1602078504344" duration="2383000" />
+      <workItem from="1602118782333" duration="18000" />
+      <workItem from="1602118822706" duration="3120000" />
     </task>
     <task id="LOCAL-00001" summary="readme.md">
       <created>1602069836244</created>
@@ -168,16 +188,44 @@
       <option name="project" value="LOCAL" />
       <updated>1602069836244</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="spring创建IOC的四种方式">
+      <created>1602079518834</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602079518834</updated>
+    </task>
+    <task id="LOCAL-00003" summary="IOC创建对象四种方式">
+      <created>1602079607060</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602079607060</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme.md" />
+    <MESSAGE value="spring创建IOC的四种方式" />
+    <MESSAGE value="IOC创建对象四种方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="IOC创建对象四种方式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="136" key="#MyTest_(1)" timestamp="1602062187725">
@@ -195,11 +243,12 @@
       <screen x="0" y="0" width="1680" height="999" />
     </state>
     <state x="304" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.999@0.0.1680.999" timestamp="1602068972577" />
-    <state x="653" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1602060030594">
-      <screen x="0" y="0" width="1680" height="1004" />
+    <state x="653" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1602118881791">
+      <screen x="0" y="0" width="1680" height="998" />
     </state>
     <state x="653" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1004@0.0.1680.1004" timestamp="1602060030594" />
     <state x="653" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1013@0.0.1680.1013" timestamp="1602041844174" />
+    <state x="653" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1680.998@0.0.1680.998" timestamp="1602118881791" />
     <state x="703" y="407" key="Github.ShareDialog" timestamp="1602069689009">
       <screen x="0" y="0" width="1680" height="1000" />
     </state>
@@ -208,45 +257,49 @@
       <screen x="0" y="0" width="1680" height="1000" />
     </state>
     <state x="536" y="122" key="Github.UntrackedFilesDialog/0.0.1680.1000@0.0.1680.1000" timestamp="1602069731177" />
-    <state width="1638" height="170" key="GridCell.Tab.0.bottom" timestamp="1602079114676">
-      <screen x="0" y="0" width="1680" height="1000" />
+    <state width="1638" height="266" key="GridCell.Tab.0.bottom" timestamp="1602120365706">
+      <screen x="0" y="0" width="1680" height="998" />
     </state>
-    <state width="1638" height="170" key="GridCell.Tab.0.bottom/0.0.1680.1000@0.0.1680.1000" timestamp="1602079114676" />
+    <state width="1638" height="242" key="GridCell.Tab.0.bottom/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084771" />
     <state width="1638" height="275" key="GridCell.Tab.0.bottom/0.0.1680.1002@0.0.1680.1002" timestamp="1602062770619" />
     <state width="1638" height="448" key="GridCell.Tab.0.bottom/0.0.1680.1003@0.0.1680.1003" timestamp="1602077641197" />
     <state width="1638" height="320" key="GridCell.Tab.0.bottom/0.0.1680.1004@0.0.1680.1004" timestamp="1602075309554" />
     <state width="1638" height="304" key="GridCell.Tab.0.bottom/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224355" />
     <state width="1638" height="98" key="GridCell.Tab.0.bottom/0.0.1680.1013@0.0.1680.1013" timestamp="1602041923787" />
+    <state width="1638" height="266" key="GridCell.Tab.0.bottom/0.0.1680.998@0.0.1680.998" timestamp="1602120365706" />
     <state width="1638" height="320" key="GridCell.Tab.0.bottom/0.0.1680.999@0.0.1680.999" timestamp="1602078489336" />
-    <state width="1638" height="170" key="GridCell.Tab.0.center" timestamp="1602079114675">
-      <screen x="0" y="0" width="1680" height="1000" />
+    <state width="1638" height="266" key="GridCell.Tab.0.center" timestamp="1602120365705">
+      <screen x="0" y="0" width="1680" height="998" />
     </state>
-    <state width="1638" height="170" key="GridCell.Tab.0.center/0.0.1680.1000@0.0.1680.1000" timestamp="1602079114675" />
+    <state width="1638" height="242" key="GridCell.Tab.0.center/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084770" />
     <state width="1638" height="275" key="GridCell.Tab.0.center/0.0.1680.1002@0.0.1680.1002" timestamp="1602062770618" />
     <state width="1638" height="448" key="GridCell.Tab.0.center/0.0.1680.1003@0.0.1680.1003" timestamp="1602077641197" />
     <state width="1638" height="320" key="GridCell.Tab.0.center/0.0.1680.1004@0.0.1680.1004" timestamp="1602075309553" />
     <state width="1638" height="304" key="GridCell.Tab.0.center/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224353" />
     <state width="1638" height="98" key="GridCell.Tab.0.center/0.0.1680.1013@0.0.1680.1013" timestamp="1602041923786" />
+    <state width="1638" height="266" key="GridCell.Tab.0.center/0.0.1680.998@0.0.1680.998" timestamp="1602120365705" />
     <state width="1638" height="320" key="GridCell.Tab.0.center/0.0.1680.999@0.0.1680.999" timestamp="1602078489336" />
-    <state width="1638" height="170" key="GridCell.Tab.0.left" timestamp="1602079114675">
-      <screen x="0" y="0" width="1680" height="1000" />
+    <state width="1638" height="266" key="GridCell.Tab.0.left" timestamp="1602120365704">
+      <screen x="0" y="0" width="1680" height="998" />
     </state>
-    <state width="1638" height="170" key="GridCell.Tab.0.left/0.0.1680.1000@0.0.1680.1000" timestamp="1602079114675" />
+    <state width="1638" height="242" key="GridCell.Tab.0.left/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084769" />
     <state width="1638" height="275" key="GridCell.Tab.0.left/0.0.1680.1002@0.0.1680.1002" timestamp="1602062770618" />
     <state width="1638" height="448" key="GridCell.Tab.0.left/0.0.1680.1003@0.0.1680.1003" timestamp="1602077641197" />
     <state width="1638" height="320" key="GridCell.Tab.0.left/0.0.1680.1004@0.0.1680.1004" timestamp="1602075309553" />
     <state width="1638" height="304" key="GridCell.Tab.0.left/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224353" />
     <state width="1638" height="98" key="GridCell.Tab.0.left/0.0.1680.1013@0.0.1680.1013" timestamp="1602041923785" />
+    <state width="1638" height="266" key="GridCell.Tab.0.left/0.0.1680.998@0.0.1680.998" timestamp="1602120365704" />
     <state width="1638" height="320" key="GridCell.Tab.0.left/0.0.1680.999@0.0.1680.999" timestamp="1602078489335" />
-    <state width="1638" height="170" key="GridCell.Tab.0.right" timestamp="1602079114676">
-      <screen x="0" y="0" width="1680" height="1000" />
+    <state width="1638" height="266" key="GridCell.Tab.0.right" timestamp="1602120365705">
+      <screen x="0" y="0" width="1680" height="998" />
     </state>
-    <state width="1638" height="170" key="GridCell.Tab.0.right/0.0.1680.1000@0.0.1680.1000" timestamp="1602079114676" />
+    <state width="1638" height="242" key="GridCell.Tab.0.right/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084770" />
     <state width="1638" height="275" key="GridCell.Tab.0.right/0.0.1680.1002@0.0.1680.1002" timestamp="1602062770619" />
     <state width="1638" height="448" key="GridCell.Tab.0.right/0.0.1680.1003@0.0.1680.1003" timestamp="1602077641197" />
     <state width="1638" height="320" key="GridCell.Tab.0.right/0.0.1680.1004@0.0.1680.1004" timestamp="1602075309553" />
     <state width="1638" height="304" key="GridCell.Tab.0.right/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224355" />
     <state width="1638" height="98" key="GridCell.Tab.0.right/0.0.1680.1013@0.0.1680.1013" timestamp="1602041923787" />
+    <state width="1638" height="266" key="GridCell.Tab.0.right/0.0.1680.998@0.0.1680.998" timestamp="1602120365705" />
     <state width="1638" height="320" key="GridCell.Tab.0.right/0.0.1680.999@0.0.1680.999" timestamp="1602078489336" />
     <state width="1638" height="448" key="GridCell.Tab.1.bottom" timestamp="1602077641198">
       <screen x="0" y="0" width="1680" height="1003" />
@@ -277,10 +330,10 @@
     <state x="328" y="99" key="SettingsEditor/0.0.1680.1012@0.0.1680.1012" timestamp="1602039026751" />
     <state x="328" y="99" key="SettingsEditor/0.0.1680.1013@0.0.1680.1013" timestamp="1602038952549" />
     <state x="328" y="98" key="SettingsEditor/0.0.1680.999@0.0.1680.999" timestamp="1602069002377" />
-    <state x="440" y="235" key="Vcs.Push.Dialog.v2" timestamp="1602069854714">
+    <state x="440" y="235" key="Vcs.Push.Dialog.v2" timestamp="1602079608240">
       <screen x="0" y="0" width="1680" height="999" />
     </state>
-    <state x="440" y="235" key="Vcs.Push.Dialog.v2/0.0.1680.999@0.0.1680.999" timestamp="1602069854714" />
+    <state x="440" y="235" key="Vcs.Push.Dialog.v2/0.0.1680.999@0.0.1680.999" timestamp="1602079608240" />
     <state x="416" y="153" key="new project wizard" timestamp="1602070268316">
       <screen x="0" y="0" width="1680" height="999" />
     </state>

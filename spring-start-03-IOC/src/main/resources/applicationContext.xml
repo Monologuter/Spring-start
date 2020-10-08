@@ -21,11 +21,33 @@
 
 <!--        第四种  直接通过参数名来设置-->
         <constructor-arg name="name" value="陈亚pro"></constructor-arg>
+    </bean>
 
 
+
+
+
+
+
+
+    <!--
+        id bean的唯一标识符也就是相当于我们学习的对象名
+        class bean对象所对应的全限定名 包名+类名
+        name 也是别名  而且name更高级 可以取多个别名 直接可以使用逗号分隔  也可以直接使用空格分隔
+
+
+    -->
+    <bean id="userT" class="dell.educy.UserT" name="cyyUser,dell,huayan,majingxian">
 
     </bean>
 
+
+    <!--如果取了别名 我们也可以使用别名进行获取到 直接使用原来的名字也是可以的-->
+    <alias name="user" alias="cyyuser"/>
+
+    <import resource="bean.xml"/>
+    <import resource="bean2.xml"/>
+    <import resource="bean3.xml"/>
 
 
 
