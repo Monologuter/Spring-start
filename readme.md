@@ -176,3 +176,178 @@ spring容器就像一个婚介所
 
 ![EU7ksu-2020-10-08-10-14-39](https://cyymacbookpro.oss-cn-shanghai.aliyuncs.com/Macbookpro/EU7ksu-2020-10-08-10-14-39)
 
+
+
+### 三、依赖注入
+
+#### 1、构造器注入
+
+​	前面已经学习了
+
+#### 2、使用set方式注入【重点】
+
+##### ①、什么是依赖注入：本质是set注入
+
+​	bean对象的创建爱依赖于容器
+
+​	bean对象中的所有属性由容器注入
+
+​	
+
+②、环境搭建
+
+​	复杂类型
+
+```java
+@Data
+public class Address {
+    private  String address;
+}
+```
+
+
+
+​	真实测试对象
+
+```java
+@Data
+public class Student {
+    private String name;
+    private Address address;
+    private String[] book;
+    private List<String> hobbys;
+    private Map<String , String> stuCard;
+    private Set<String> games;
+    private Properties info;
+    private String wife;
+}
+```
+
+
+
+applicationContext.xml
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--使用spring来创建我们的对象 在spring里面的这些都称为bean-->
+
+<!--    第一种普通纸注入直接使用value就好了-->
+    <bean name="student" class="dell.eduucy.Student">
+        <property name="name" value="陈亚"></property>
+    </bean>
+
+</beans>
+```
+
+
+
+测试类
+
+```java
+package dell.educy;
+
+import dell.eduucy.Student;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+/**
+ * @Author 马小姐
+ * @Date 2020-10-08 10:41
+ * @Version 1.0
+ * @Description:
+ */
+public class SpringTest {
+    public static void main(String[] args) {
+
+        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+        Student student = (Student) classPathXmlApplicationContext.getBean("student");
+        System.out.println(student.toString());
+
+    }
+}
+```
+
+
+
+#### 3、其他方式注入
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--使用spring来创建我们的对象 在spring里面的这些都称为bean-->
+
+
+    <bean id="address" class="dell.eduucy.Address" >
+        <property name="address" value="江苏省"/>
+    </bean>
+
+
+    <bean id="student" class="dell.eduucy.Student">
+        <!--    第一种普通纸注入直接使用value就好了-->
+        <property name="name" value="陈亚"/>
+
+<!--        第二种使用bean注入 使用ref-->
+        <property name="address" ref="address"/>
+
+        <property name="book">
+            <array>
+                <value>红楼梦</value>
+                <value>水浒传</value>
+                <value>西游记</value>
+                <value>三国演义</value>
+            </array>
+        </property>
+
+        <property name="hobbys" >
+            <list>
+                <value>跳舞</value>
+                <value>唱歌</value>
+                <value>rap</value>
+                <value>篮球</value>
+            </list>
+        </property>
+
+        <property name="stuCard">
+            <map>
+                <entry key="1" value="陈亚"/>
+                <entry key ="2" value="马静娴"/>
+            </map>
+        </property>
+
+        <property name="games">
+            <set>
+                <value>陈亚</value>
+                <value>马静娴</value>
+                <value>华妍</value>
+            </set>
+        </property>
+
+        <property name="info">
+            <props>
+                <prop key="1">你是猪吗</prop>
+                <prop key="2">你是狗吗</prop>
+                <prop key="3">你是个垃圾</prop>
+                <prop key="4">你就是只猪</prop>
+            </props>
+        </property>
+        <property name="wife">
+            <null></null>
+        </property>
+    </bean>
+</beans>
+```
+
+
+
+输出结果
+
+![image-20201008112912786](/Users/mac/Library/Application Support/typora-user-images/image-20201008112912786.png)
+
+
+

@@ -10,6 +10,7 @@
         <module name="spring-start-02-hello" />
         <module name="spring-start-01" />
         <module name="spring-start-03-IOC" />
+        <module name="spring-start-04-DI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,7 @@
       <module name="spring-start-01" target="1.7" />
       <module name="spring-start-02-hello" target="1.7" />
       <module name="spring-start-03-IOC" target="1.7" />
+      <module name="spring-start-04-DI" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

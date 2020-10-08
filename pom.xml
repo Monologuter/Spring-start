@@ -11,6 +11,7 @@
     <module>spring-start-01</module>
     <module>spring-start-02-hello</module>
       <module>spring-start-03-IOC</module>
+      <module>spring-start-04-DI</module>
   </modules>
   <packaging>pom</packaging>
 

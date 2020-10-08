@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--使用spring来创建我们的对象 在spring里面的这些都称为bean-->
+
+
+    <bean id="address" class="dell.eduucy.Address" >
+        <property name="address" value="江苏省"/>
+    </bean>
+
+
+    <bean id="student" class="dell.eduucy.Student">
+        <!--    第一种普通纸注入直接使用value就好了-->
+        <property name="name" value="陈亚"/>
+
+<!--        第二种使用bean注入 使用ref-->
+        <property name="address" ref="address"/>
+
+        <property name="book">
+            <array>
+                <value>红楼梦</value>
+                <value>水浒传</value>
+                <value>西游记</value>
+                <value>三国演义</value>
+            </array>
+        </property>
+
+        <property name="hobbys" >
+            <list>
+                <value>跳舞</value>
+                <value>唱歌</value>
+                <value>rap</value>
+                <value>篮球</value>
+            </list>
+        </property>
+
+        <property name="stuCard">
+            <map>
+                <entry key="1" value="陈亚"/>
+                <entry key ="2" value="马静娴"/>
+            </map>
+        </property>
+
+        <property name="games">
+            <set>
+                <value>陈亚</value>
+                <value>马静娴</value>
+                <value>华妍</value>
+            </set>
+        </property>
+
+        <property name="info">
+            <props>
+                <prop key="1">你是猪吗</prop>
+                <prop key="2">你是狗吗</prop>
+                <prop key="3">你是个垃圾</prop>
+                <prop key="4">你就是只猪</prop>
+            </props>
+        </property>
+
+
+        <property name="wife">
+            <null></null>
+        </property>
+
+
+    </bean>
+
+
+
+
+</beans>
