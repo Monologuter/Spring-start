@@ -6,12 +6,13 @@
     <!--使用spring来创建我们的对象 在spring里面的这些都称为bean-->
 
 
-    <bean id="address" class="dell.eduucy.Address" >
+    <bean id="address" class="dell.eduucy.Address" scope="singleton" >
+<!--        scope默认是单例模式-->
         <property name="address" value="江苏省"/>
     </bean>
 
 
-    <bean id="student" class="dell.eduucy.Student">
+    <bean id="student" class="dell.eduucy.Student" scope="prototype">
         <!--    第一种普通纸注入直接使用value就好了-->
         <property name="name" value="陈亚"/>
 

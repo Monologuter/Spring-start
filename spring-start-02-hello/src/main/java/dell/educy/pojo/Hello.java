@@ -11,5 +11,5 @@ import lombok.Data;
 @Data
 public class Hello {
     private  String str;
-
+    private String str1;
 }

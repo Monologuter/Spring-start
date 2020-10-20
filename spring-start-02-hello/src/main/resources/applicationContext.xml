@@ -8,7 +8,8 @@
 
 
     <bean id="hello"  class="dell.educy.pojo.Hello">
-        <property name="str" value="Spring" />
+        <property name="str" value="你是猪吗" />
+        <property name="str1" value="你是狗吗"/>
     </bean>
 
 
