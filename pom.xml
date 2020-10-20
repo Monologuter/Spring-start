@@ -12,6 +12,7 @@
     <module>spring-start-02-hello</module>
       <module>spring-start-03-IOC</module>
       <module>spring-start-04-DI</module>
+      <module>spring-start-05-AutWrite</module>
   </modules>
   <packaging>pom</packaging>
 
