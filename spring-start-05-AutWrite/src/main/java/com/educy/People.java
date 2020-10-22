@@ -1,6 +1,7 @@
 package com.educy;
 
 import lombok.Data;
+import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * @Author 马小姐
@@ -11,8 +12,11 @@ import lombok.Data;
 
 
 @Data
+
 public class People {
+    @Autowired
     private Cat cat;
+    @Autowired
     private Dog dog;
     private String name ;
 
