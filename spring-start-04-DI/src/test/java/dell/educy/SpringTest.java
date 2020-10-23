@@ -17,6 +17,9 @@ public class SpringTest {
         Student student = (Student) classPathXmlApplicationContext.getBean("student");
         Student student1 = (Student) classPathXmlApplicationContext.getBean("student");
 
+        Address address2 = classPathXmlApplicationContext.getBean("address", Address.class);
+        System.out.println(address2);
+
         Address address = (Address) classPathXmlApplicationContext.getBean("address");
         Address address1 = (Address) classPathXmlApplicationContext.getBean("address");
         System.out.println(address.hashCode());

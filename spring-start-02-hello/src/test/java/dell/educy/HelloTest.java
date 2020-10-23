@@ -17,10 +17,9 @@ public class HelloTest {
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
 
-        Hello hello = (Hello) context.getBean("hello");
-        System.out.println(hello.toString());
-
-
+//        Hello hello = (Hello) context.getBean("hello");
+        Hello hello1 = context.getBean("hello", Hello.class);
+        System.out.println(hello1.toString());
 
     }
 
