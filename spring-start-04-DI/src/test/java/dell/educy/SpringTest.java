@@ -33,4 +33,15 @@ public class SpringTest {
         System.out.println(student.toString());
 
     }
+
+
+    /**
+     * 测试内容:构造注入  constructor-arg标签
+     */
+    @Test
+    public void test() {
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        Object customer = context.getBean("customer");
+        System.out.println(customer);
+    }
 }
