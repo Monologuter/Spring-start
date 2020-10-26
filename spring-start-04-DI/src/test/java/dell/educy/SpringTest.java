@@ -3,6 +3,7 @@ package dell.educy;
 import dell.eduucy.Address;
 import dell.eduucy.Student;
 import dell.factoryBean.ConnectionBeanFactory;
+import dell.scope.Account;
 import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.web.servlet.tags.HtmlEscapeTag;
@@ -77,5 +78,18 @@ public class SpringTest {
     }
 
 
+    /**
+     * 测试内容:测试简单对象创建的次数
+     */
+    @Test
+    public void test14() {
+        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+        Account account = (Account) classPathXmlApplicationContext.getBean("account");
+        Account account2 = (Account) classPathXmlApplicationContext.getBean("account");
+        System.out.println("account = " + account);
+        System.out.println("account2 = " + account2);
+
+
+    }
 
 }

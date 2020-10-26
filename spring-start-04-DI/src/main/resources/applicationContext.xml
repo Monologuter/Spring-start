@@ -96,5 +96,9 @@
 
     <bean id="conn" class="dell.factoryBean.StaticFactory" factory-method="getConnection"/>
 
+    <bean id="account" scope="prototype" class="dell.scope.Account"/>
+<!--    scope="singleton"表示简单对象只会创建一次-->
+
+
 
 </beans>
