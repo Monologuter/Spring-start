@@ -81,6 +81,8 @@
     </bean>
 
 
+    <bean id="conn" class="dell.factoryBean.ConnectionBeanFactory"/>
+
 
 
 </beans>
