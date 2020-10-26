@@ -91,7 +91,10 @@
 <!--    如果Class中指定的类型是FactoryBean接口的实现类 那么通过id获得的是这个类所创建的复杂对象  此处就是Connection对象-->
 <!--    <bean id="conn" class="dell.factoryBean.ConnectionBeanFactory"/>-->
 
-    <bean id="connFactory" class="dell.factoryBean.ConnFactory"/>
-    <bean id="conn" factory-bean="connFactory" factory-method="getConnection"/>
+<!--    <bean id="connFactory" class="dell.factoryBean.ConnFactory"/>-->
+<!--    <bean id="conn" factory-bean="connFactory" factory-method="getConnection"/>    实例工厂-->
+
+    <bean id="conn" class="dell.factoryBean.StaticFactory" factory-method="getConnection"/>
+
 
 </beans>

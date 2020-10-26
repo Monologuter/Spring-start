@@ -19,12 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21b9b8b0-fe5f-4cd6-bd3e-b14fab1ac227" name="Default Changelist" comment="将FactoryBean中的四个基本的配置信息写到配置文件中进行依赖注入好处就是解耦合">
-      <change afterPath="$PROJECT_DIR$/spring-start-04-DI/src/main/java/dell/factoryBean/ConnFactory.java" afterDir="false" />
+    <list default="true" id="21b9b8b0-fe5f-4cd6-bd3e-b14fab1ac227" name="Default Changelist" comment="实例工厂主要解决避免spring框架的侵入以及整合遗留系统配置文件： &#10;&lt;bean id=&quot;connFactory&quot; class=&quot;dell.factoryBean.ConnFactory&quot;/&gt;&#10;&lt;bean id=&quot;conn&quot; factory-bean=&quot;connFactory&quot;factory-method=&quot;getConnection&quot;/&gt;">
+      <change afterPath="$PROJECT_DIR$/spring-start-04-DI/src/main/java/dell/factoryBean/StaticFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-04-DI/log/log4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-04-DI/log/log4j.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-start-04-DI/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-04-DI/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-04-DI/src/test/java/dell/educy/SpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-04-DI/src/test/java/dell/educy/SpringTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +101,7 @@
       <recent name="$PROJECT_DIR$/spring-start-02-hello/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpringTest.test12">
+  <component name="RunManager" selected="JUnit.SpringTest.test13">
     <configuration name="SpringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dell.educy.SpringTest" />
       <module name="spring-start-04-DI" />
@@ -180,8 +178,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpringTest.test12" />
         <item itemvalue="JUnit.SpringTest.test13" />
+        <item itemvalue="JUnit.SpringTest.test12" />
         <item itemvalue="JUnit.SpringTest.test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.SpringTest" />
@@ -238,7 +236,7 @@
       <workItem from="1603468870477" duration="3210000" />
       <workItem from="1603593866983" duration="943000" />
       <workItem from="1603607359459" duration="1700000" />
-      <workItem from="1603674341044" duration="5087000" />
+      <workItem from="1603674341044" duration="6046000" />
     </task>
     <task id="LOCAL-00001" summary="readme.md">
       <created>1602069836244</created>
@@ -359,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603679694782</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="实例工厂主要解决避免spring框架的侵入以及整合遗留系统配置文件： &#10;&lt;bean id=&quot;connFactory&quot; class=&quot;dell.factoryBean.ConnFactory&quot;/&gt;&#10;&lt;bean id=&quot;conn&quot; factory-bean=&quot;connFactory&quot;factory-method=&quot;getConnection&quot;/&gt;">
+      <created>1603681632101</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1603681632101</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,7 +400,8 @@
     <MESSAGE value="isSingleton" />
     <MESSAGE value="isSingleton返回值是false的时候每次使用都会创建一个对象如果是true的时候就只会创建一个对象" />
     <MESSAGE value="将FactoryBean中的四个基本的配置信息写到配置文件中进行依赖注入好处就是解耦合" />
-    <option name="LAST_COMMIT_MESSAGE" value="将FactoryBean中的四个基本的配置信息写到配置文件中进行依赖注入好处就是解耦合" />
+    <MESSAGE value="实例工厂主要解决避免spring框架的侵入以及整合遗留系统配置文件： &#10;&lt;bean id=&quot;connFactory&quot; class=&quot;dell.factoryBean.ConnFactory&quot;/&gt;&#10;&lt;bean id=&quot;conn&quot; factory-bean=&quot;connFactory&quot;factory-method=&quot;getConnection&quot;/&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="实例工厂主要解决避免spring框架的侵入以及整合遗留系统配置文件： &#10;&lt;bean id=&quot;connFactory&quot; class=&quot;dell.factoryBean.ConnFactory&quot;/&gt;&#10;&lt;bean id=&quot;conn&quot; factory-bean=&quot;connFactory&quot;factory-method=&quot;getConnection&quot;/&gt;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="136" key="#MyTest_(1)" timestamp="1602062187725">
@@ -431,7 +437,7 @@
       <screen x="0" y="0" width="1680" height="1000" />
     </state>
     <state x="536" y="122" key="Github.UntrackedFilesDialog/0.0.1680.1000@0.0.1680.1000" timestamp="1602069731177" />
-    <state width="1638" height="188" key="GridCell.Tab.0.bottom" timestamp="1603681306135">
+    <state width="1638" height="324" key="GridCell.Tab.0.bottom" timestamp="1603681648976">
       <screen x="0" y="0" width="1680" height="1009" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.bottom/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084771" />
@@ -442,13 +448,13 @@
     <state width="1638" height="293" key="GridCell.Tab.0.bottom/0.0.1680.1006@0.0.1680.1006" timestamp="1603435015327" />
     <state width="1638" height="283" key="GridCell.Tab.0.bottom/0.0.1680.1007@0.0.1680.1007" timestamp="1603451275006" />
     <state width="1638" height="224" key="GridCell.Tab.0.bottom/0.0.1680.1008@0.0.1680.1008" timestamp="1603610444896" />
-    <state width="1638" height="188" key="GridCell.Tab.0.bottom/0.0.1680.1009@0.0.1680.1009" timestamp="1603681306135" />
+    <state width="1638" height="324" key="GridCell.Tab.0.bottom/0.0.1680.1009@0.0.1680.1009" timestamp="1603681648976" />
     <state width="1638" height="199" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1603190655369" />
     <state width="1638" height="304" key="GridCell.Tab.0.bottom/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224355" />
     <state width="1638" height="98" key="GridCell.Tab.0.bottom/0.0.1680.1013@0.0.1680.1013" timestamp="1602041923787" />
     <state width="1638" height="201" key="GridCell.Tab.0.bottom/0.0.1680.998@0.0.1680.998" timestamp="1602126311344" />
     <state width="1638" height="276" key="GridCell.Tab.0.bottom/0.0.1680.999@0.0.1680.999" timestamp="1602127706286" />
-    <state width="1638" height="188" key="GridCell.Tab.0.center" timestamp="1603681306135">
+    <state width="1638" height="324" key="GridCell.Tab.0.center" timestamp="1603681648975">
       <screen x="0" y="0" width="1680" height="1009" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.center/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084770" />
@@ -459,13 +465,13 @@
     <state width="1638" height="293" key="GridCell.Tab.0.center/0.0.1680.1006@0.0.1680.1006" timestamp="1603435015326" />
     <state width="1638" height="283" key="GridCell.Tab.0.center/0.0.1680.1007@0.0.1680.1007" timestamp="1603451275006" />
     <state width="1638" height="224" key="GridCell.Tab.0.center/0.0.1680.1008@0.0.1680.1008" timestamp="1603610444895" />
-    <state width="1638" height="188" key="GridCell.Tab.0.center/0.0.1680.1009@0.0.1680.1009" timestamp="1603681306135" />
+    <state width="1638" height="324" key="GridCell.Tab.0.center/0.0.1680.1009@0.0.1680.1009" timestamp="1603681648975" />
     <state width="1638" height="199" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1603190655369" />
     <state width="1638" height="304" key="GridCell.Tab.0.center/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224353" />
     <state width="1638" height="98" key="GridCell.Tab.0.center/0.0.1680.1013@0.0.1680.1013" timestamp="1602041923786" />
     <state width="1638" height="201" key="GridCell.Tab.0.center/0.0.1680.998@0.0.1680.998" timestamp="1602126311343" />
     <state width="1638" height="276" key="GridCell.Tab.0.center/0.0.1680.999@0.0.1680.999" timestamp="1602127706285" />
-    <state width="1638" height="188" key="GridCell.Tab.0.left" timestamp="1603681306134">
+    <state width="1638" height="324" key="GridCell.Tab.0.left" timestamp="1603681648975">
       <screen x="0" y="0" width="1680" height="1009" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.left/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084769" />
@@ -476,13 +482,13 @@
     <state width="1638" height="293" key="GridCell.Tab.0.left/0.0.1680.1006@0.0.1680.1006" timestamp="1603435015326" />
     <state width="1638" height="283" key="GridCell.Tab.0.left/0.0.1680.1007@0.0.1680.1007" timestamp="1603451275005" />
     <state width="1638" height="224" key="GridCell.Tab.0.left/0.0.1680.1008@0.0.1680.1008" timestamp="1603610444895" />
-    <state width="1638" height="188" key="GridCell.Tab.0.left/0.0.1680.1009@0.0.1680.1009" timestamp="1603681306134" />
+    <state width="1638" height="324" key="GridCell.Tab.0.left/0.0.1680.1009@0.0.1680.1009" timestamp="1603681648975" />
     <state width="1638" height="199" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1603190655368" />
     <state width="1638" height="304" key="GridCell.Tab.0.left/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224353" />
     <state width="1638" height="98" key="GridCell.Tab.0.left/0.0.1680.1013@0.0.1680.1013" timestamp="1602041923785" />
     <state width="1638" height="201" key="GridCell.Tab.0.left/0.0.1680.998@0.0.1680.998" timestamp="1602126311342" />
     <state width="1638" height="276" key="GridCell.Tab.0.left/0.0.1680.999@0.0.1680.999" timestamp="1602127706285" />
-    <state width="1638" height="188" key="GridCell.Tab.0.right" timestamp="1603681306135">
+    <state width="1638" height="324" key="GridCell.Tab.0.right" timestamp="1603681648976">
       <screen x="0" y="0" width="1680" height="1009" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.right/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084770" />
@@ -493,7 +499,7 @@
     <state width="1638" height="293" key="GridCell.Tab.0.right/0.0.1680.1006@0.0.1680.1006" timestamp="1603435015327" />
     <state width="1638" height="283" key="GridCell.Tab.0.right/0.0.1680.1007@0.0.1680.1007" timestamp="1603451275006" />
     <state width="1638" height="224" key="GridCell.Tab.0.right/0.0.1680.1008@0.0.1680.1008" timestamp="1603610444895" />
-    <state width="1638" height="188" key="GridCell.Tab.0.right/0.0.1680.1009@0.0.1680.1009" timestamp="1603681306135" />
+    <state width="1638" height="324" key="GridCell.Tab.0.right/0.0.1680.1009@0.0.1680.1009" timestamp="1603681648976" />
     <state width="1638" height="199" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1603190655369" />
     <state width="1638" height="304" key="GridCell.Tab.0.right/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224355" />
     <state width="1638" height="98" key="GridCell.Tab.0.right/0.0.1680.1013@0.0.1680.1013" timestamp="1602041923787" />
@@ -552,7 +558,7 @@
     <state width="728" height="457" key="SwitcherDM/0.0.1680.1007@0.0.1680.1007" timestamp="1603421562094" />
     <state width="728" height="476" key="SwitcherDM/0.0.1680.1008@0.0.1680.1008" timestamp="1603607230581" />
     <state width="728" height="477" key="SwitcherDM/0.0.1680.1009@0.0.1680.1009" timestamp="1603681349617" />
-    <state x="440" y="237" key="Vcs.Push.Dialog.v2" timestamp="1603679699122">
+    <state x="440" y="237" key="Vcs.Push.Dialog.v2" timestamp="1603681636706">
       <screen x="0" y="0" width="1680" height="1009" />
     </state>
     <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.0.1680.1004@0.0.1680.1004" timestamp="1603199287694" />
@@ -560,7 +566,7 @@
     <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1006@0.0.1680.1006" timestamp="1603434907437" />
     <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1007@0.0.1680.1007" timestamp="1603444698756" />
     <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1008@0.0.1680.1008" timestamp="1603675497534" />
-    <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1009@0.0.1680.1009" timestamp="1603679699122" />
+    <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1009@0.0.1680.1009" timestamp="1603681636706" />
     <state x="440" y="235" key="Vcs.Push.Dialog.v2/0.0.1680.998@0.0.1680.998" timestamp="1602127954198" />
     <state x="440" y="235" key="Vcs.Push.Dialog.v2/0.0.1680.999@0.0.1680.999" timestamp="1602079608240" />
     <state x="467" y="155" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603608775181">

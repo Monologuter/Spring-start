@@ -66,7 +66,7 @@ public class SpringTest {
     }
 
     /**
-     * 测试内容:
+     * 测试内容:测试实例工厂以及静态工厂
      */
     @Test
     public void test13() {
@@ -75,4 +75,7 @@ public class SpringTest {
         System.out.println("connFactory = " + connFactory);
 
     }
+
+
+
 }
