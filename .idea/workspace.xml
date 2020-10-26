@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21b9b8b0-fe5f-4cd6-bd3e-b14fab1ac227" name="Default Changelist" comment="静态工厂解决的问题和实例工厂一样&lt;bean id=&quot;conn&quot; class=&quot;dell.factoryBean.StaticFactory&quot; factory-method=&quot;getConnection&quot;/&gt;">
-      <change afterPath="$PROJECT_DIR$/log/log4j.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-start-04-DI/src/main/java/dell/scope/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="21b9b8b0-fe5f-4cd6-bd3e-b14fab1ac227" name="Default Changelist" comment="spring控制创建简单对象次数的方式通过scope属性来指定即可">
+      <change beforePath="$PROJECT_DIR$/spring-start-04-DI/log/log4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-04-DI/log/log4j.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-start-04-DI/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-04-DI/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-04-DI/src/test/java/dell/educy/SpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-04-DI/src/test/java/dell/educy/SpringTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +238,7 @@
       <workItem from="1603468870477" duration="3210000" />
       <workItem from="1603593866983" duration="943000" />
       <workItem from="1603607359459" duration="1700000" />
-      <workItem from="1603674341044" duration="6653000" />
+      <workItem from="1603674341044" duration="7027000" />
     </task>
     <task id="LOCAL-00001" summary="readme.md">
       <created>1602069836244</created>
@@ -376,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603682544992</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="spring控制创建简单对象次数的方式通过scope属性来指定即可">
+      <created>1603683149196</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1603683149196</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +418,8 @@
     <MESSAGE value="将FactoryBean中的四个基本的配置信息写到配置文件中进行依赖注入好处就是解耦合" />
     <MESSAGE value="实例工厂主要解决避免spring框架的侵入以及整合遗留系统配置文件： &#10;&lt;bean id=&quot;connFactory&quot; class=&quot;dell.factoryBean.ConnFactory&quot;/&gt;&#10;&lt;bean id=&quot;conn&quot; factory-bean=&quot;connFactory&quot;factory-method=&quot;getConnection&quot;/&gt;" />
     <MESSAGE value="静态工厂解决的问题和实例工厂一样&lt;bean id=&quot;conn&quot; class=&quot;dell.factoryBean.StaticFactory&quot; factory-method=&quot;getConnection&quot;/&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="静态工厂解决的问题和实例工厂一样&lt;bean id=&quot;conn&quot; class=&quot;dell.factoryBean.StaticFactory&quot; factory-method=&quot;getConnection&quot;/&gt;" />
+    <MESSAGE value="spring控制创建简单对象次数的方式通过scope属性来指定即可" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring控制创建简单对象次数的方式通过scope属性来指定即可" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="136" key="#MyTest_(1)" timestamp="1602062187725">
@@ -450,7 +455,7 @@
       <screen x="0" y="0" width="1680" height="1000" />
     </state>
     <state x="536" y="122" key="Github.UntrackedFilesDialog/0.0.1680.1000@0.0.1680.1000" timestamp="1602069731177" />
-    <state width="1638" height="246" key="GridCell.Tab.0.bottom" timestamp="1603682590769">
+    <state width="1638" height="324" key="GridCell.Tab.0.bottom" timestamp="1603683194825">
       <screen x="0" y="0" width="1680" height="1009" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.bottom/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084771" />
@@ -461,13 +466,13 @@
     <state width="1638" height="293" key="GridCell.Tab.0.bottom/0.0.1680.1006@0.0.1680.1006" timestamp="1603435015327" />
     <state width="1638" height="283" key="GridCell.Tab.0.bottom/0.0.1680.1007@0.0.1680.1007" timestamp="1603451275006" />
     <state width="1638" height="224" key="GridCell.Tab.0.bottom/0.0.1680.1008@0.0.1680.1008" timestamp="1603610444896" />
-    <state width="1638" height="246" key="GridCell.Tab.0.bottom/0.0.1680.1009@0.0.1680.1009" timestamp="1603682590769" />
+    <state width="1638" height="324" key="GridCell.Tab.0.bottom/0.0.1680.1009@0.0.1680.1009" timestamp="1603683194825" />
     <state width="1638" height="199" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1603190655369" />
     <state width="1638" height="304" key="GridCell.Tab.0.bottom/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224355" />
     <state width="1638" height="98" key="GridCell.Tab.0.bottom/0.0.1680.1013@0.0.1680.1013" timestamp="1602041923787" />
     <state width="1638" height="201" key="GridCell.Tab.0.bottom/0.0.1680.998@0.0.1680.998" timestamp="1602126311344" />
     <state width="1638" height="276" key="GridCell.Tab.0.bottom/0.0.1680.999@0.0.1680.999" timestamp="1602127706286" />
-    <state width="1638" height="246" key="GridCell.Tab.0.center" timestamp="1603682590768">
+    <state width="1638" height="324" key="GridCell.Tab.0.center" timestamp="1603683194824">
       <screen x="0" y="0" width="1680" height="1009" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.center/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084770" />
@@ -478,13 +483,13 @@
     <state width="1638" height="293" key="GridCell.Tab.0.center/0.0.1680.1006@0.0.1680.1006" timestamp="1603435015326" />
     <state width="1638" height="283" key="GridCell.Tab.0.center/0.0.1680.1007@0.0.1680.1007" timestamp="1603451275006" />
     <state width="1638" height="224" key="GridCell.Tab.0.center/0.0.1680.1008@0.0.1680.1008" timestamp="1603610444895" />
-    <state width="1638" height="246" key="GridCell.Tab.0.center/0.0.1680.1009@0.0.1680.1009" timestamp="1603682590768" />
+    <state width="1638" height="324" key="GridCell.Tab.0.center/0.0.1680.1009@0.0.1680.1009" timestamp="1603683194824" />
     <state width="1638" height="199" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1603190655369" />
     <state width="1638" height="304" key="GridCell.Tab.0.center/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224353" />
     <state width="1638" height="98" key="GridCell.Tab.0.center/0.0.1680.1013@0.0.1680.1013" timestamp="1602041923786" />
     <state width="1638" height="201" key="GridCell.Tab.0.center/0.0.1680.998@0.0.1680.998" timestamp="1602126311343" />
     <state width="1638" height="276" key="GridCell.Tab.0.center/0.0.1680.999@0.0.1680.999" timestamp="1602127706285" />
-    <state width="1638" height="246" key="GridCell.Tab.0.left" timestamp="1603682590767">
+    <state width="1638" height="324" key="GridCell.Tab.0.left" timestamp="1603683194824">
       <screen x="0" y="0" width="1680" height="1009" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.left/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084769" />
@@ -495,13 +500,13 @@
     <state width="1638" height="293" key="GridCell.Tab.0.left/0.0.1680.1006@0.0.1680.1006" timestamp="1603435015326" />
     <state width="1638" height="283" key="GridCell.Tab.0.left/0.0.1680.1007@0.0.1680.1007" timestamp="1603451275005" />
     <state width="1638" height="224" key="GridCell.Tab.0.left/0.0.1680.1008@0.0.1680.1008" timestamp="1603610444895" />
-    <state width="1638" height="246" key="GridCell.Tab.0.left/0.0.1680.1009@0.0.1680.1009" timestamp="1603682590767" />
+    <state width="1638" height="324" key="GridCell.Tab.0.left/0.0.1680.1009@0.0.1680.1009" timestamp="1603683194824" />
     <state width="1638" height="199" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1603190655368" />
     <state width="1638" height="304" key="GridCell.Tab.0.left/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224353" />
     <state width="1638" height="98" key="GridCell.Tab.0.left/0.0.1680.1013@0.0.1680.1013" timestamp="1602041923785" />
     <state width="1638" height="201" key="GridCell.Tab.0.left/0.0.1680.998@0.0.1680.998" timestamp="1602126311342" />
     <state width="1638" height="276" key="GridCell.Tab.0.left/0.0.1680.999@0.0.1680.999" timestamp="1602127706285" />
-    <state width="1638" height="246" key="GridCell.Tab.0.right" timestamp="1603682590768">
+    <state width="1638" height="324" key="GridCell.Tab.0.right" timestamp="1603683194825">
       <screen x="0" y="0" width="1680" height="1009" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.right/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084770" />
@@ -512,7 +517,7 @@
     <state width="1638" height="293" key="GridCell.Tab.0.right/0.0.1680.1006@0.0.1680.1006" timestamp="1603435015327" />
     <state width="1638" height="283" key="GridCell.Tab.0.right/0.0.1680.1007@0.0.1680.1007" timestamp="1603451275006" />
     <state width="1638" height="224" key="GridCell.Tab.0.right/0.0.1680.1008@0.0.1680.1008" timestamp="1603610444895" />
-    <state width="1638" height="246" key="GridCell.Tab.0.right/0.0.1680.1009@0.0.1680.1009" timestamp="1603682590768" />
+    <state width="1638" height="324" key="GridCell.Tab.0.right/0.0.1680.1009@0.0.1680.1009" timestamp="1603683194825" />
     <state width="1638" height="199" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1603190655369" />
     <state width="1638" height="304" key="GridCell.Tab.0.right/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224355" />
     <state width="1638" height="98" key="GridCell.Tab.0.right/0.0.1680.1013@0.0.1680.1013" timestamp="1602041923787" />
@@ -571,7 +576,7 @@
     <state width="728" height="457" key="SwitcherDM/0.0.1680.1007@0.0.1680.1007" timestamp="1603421562094" />
     <state width="728" height="476" key="SwitcherDM/0.0.1680.1008@0.0.1680.1008" timestamp="1603607230581" />
     <state width="728" height="477" key="SwitcherDM/0.0.1680.1009@0.0.1680.1009" timestamp="1603682422805" />
-    <state x="440" y="237" key="Vcs.Push.Dialog.v2" timestamp="1603682548730">
+    <state x="440" y="237" key="Vcs.Push.Dialog.v2" timestamp="1603683153314">
       <screen x="0" y="0" width="1680" height="1009" />
     </state>
     <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.0.1680.1004@0.0.1680.1004" timestamp="1603199287694" />
@@ -579,7 +584,7 @@
     <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1006@0.0.1680.1006" timestamp="1603434907437" />
     <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1007@0.0.1680.1007" timestamp="1603444698756" />
     <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1008@0.0.1680.1008" timestamp="1603675497534" />
-    <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1009@0.0.1680.1009" timestamp="1603682548730" />
+    <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1009@0.0.1680.1009" timestamp="1603683153314" />
     <state x="440" y="235" key="Vcs.Push.Dialog.v2/0.0.1680.998@0.0.1680.998" timestamp="1602127954198" />
     <state x="440" y="235" key="Vcs.Push.Dialog.v2/0.0.1680.999@0.0.1680.999" timestamp="1602079608240" />
     <state x="467" y="155" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603608775181">

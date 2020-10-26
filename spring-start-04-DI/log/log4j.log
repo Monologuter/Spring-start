@@ -163,3 +163,14 @@
 2020-10-26 11:31:53,420 214    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'address'
 2020-10-26 11:31:53,452 246    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
 2020-10-26 11:31:53,474 268    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-10-26 11:33:06,338 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 11:33:06,508 170    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 5 bean definitions from class path resource [applicationContext.xml]
+2020-10-26 11:33:06,559 221    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'address'
+2020-10-26 11:33:06,593 255    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
+2020-10-26 11:33:06,614 276    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-10-26 11:33:15,173 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 11:33:15,319 146    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 5 bean definitions from class path resource [applicationContext.xml]
+2020-10-26 11:33:15,358 185    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'address'
+2020-10-26 11:33:15,386 213    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
+2020-10-26 11:33:15,405 232    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-10-26 11:33:15,702 529    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'account'
