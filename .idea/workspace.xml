@@ -19,20 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21b9b8b0-fe5f-4cd6-bd3e-b14fab1ac227" name="Default Changelist" comment="构造方法重载的时候参数个数不同可以通过控制constructor-arg数量来进行区分 构造方法参数个数相同的时候要在constructor-arg标签中加type属性进行区分">
-      <change afterPath="$PROJECT_DIR$/spring-start-04-DI/src/main/java/dell/factoryBean/ConnectionBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-start-04-DI/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Spring-start.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Spring-start.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-01/spring-start-01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-01/spring-start-01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-02-hello/spring-start-02-hello.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-02-hello/spring-start-02-hello.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-03-IOC/spring-start-03-IOC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-03-IOC/spring-start-03-IOC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-04-DI/log/log4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-04-DI/log/log4j.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-04-DI/spring-start-04-DI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-04-DI/spring-start-04-DI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-04-DI/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-04-DI/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-04-DI/src/test/java/dell/educy/SpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-04-DI/src/test/java/dell/educy/SpringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-05-AutWrite/spring-start-05-AutWrite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-05-AutWrite/spring-start-05-AutWrite.iml" afterDir="false" />
+    <list default="true" id="21b9b8b0-fe5f-4cd6-bd3e-b14fab1ac227" name="Default Changelist" comment="使用FactoryBean接口创建复杂对象">
+      <change beforePath="$PROJECT_DIR$/spring-start-04-DI/src/main/java/dell/factoryBean/ConnectionBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-04-DI/src/main/java/dell/factoryBean/ConnectionBeanFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +234,7 @@
       <workItem from="1603468870477" duration="3210000" />
       <workItem from="1603593866983" duration="943000" />
       <workItem from="1603607359459" duration="1700000" />
-      <workItem from="1603674341044" duration="296000" />
+      <workItem from="1603674341044" duration="815000" />
     </task>
     <task id="LOCAL-00001" summary="readme.md">
       <created>1602069836244</created>
@@ -332,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603451396784</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="使用FactoryBean接口创建复杂对象">
+      <created>1603675491588</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603675491588</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +357,8 @@
     <MESSAGE value="spring整合日志" />
     <MESSAGE value="p标签" />
     <MESSAGE value="构造方法重载的时候参数个数不同可以通过控制constructor-arg数量来进行区分 构造方法参数个数相同的时候要在constructor-arg标签中加type属性进行区分" />
-    <option name="LAST_COMMIT_MESSAGE" value="构造方法重载的时候参数个数不同可以通过控制constructor-arg数量来进行区分 构造方法参数个数相同的时候要在constructor-arg标签中加type属性进行区分" />
+    <MESSAGE value="使用FactoryBean接口创建复杂对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用FactoryBean接口创建复杂对象" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="136" key="#MyTest_(1)" timestamp="1602062187725">
@@ -517,14 +513,14 @@
     <state width="728" height="456" key="SwitcherDM/0.0.1680.1006@0.0.1680.1006" timestamp="1603419952915" />
     <state width="728" height="457" key="SwitcherDM/0.0.1680.1007@0.0.1680.1007" timestamp="1603421562094" />
     <state width="728" height="476" key="SwitcherDM/0.0.1680.1008@0.0.1680.1008" timestamp="1603607230581" />
-    <state x="440" y="237" key="Vcs.Push.Dialog.v2" timestamp="1603444698756">
-      <screen x="0" y="0" width="1680" height="1007" />
+    <state x="440" y="237" key="Vcs.Push.Dialog.v2" timestamp="1603675497534">
+      <screen x="0" y="0" width="1680" height="1008" />
     </state>
     <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.0.1680.1004@0.0.1680.1004" timestamp="1603199287694" />
     <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.0.1680.1005@0.0.1680.1005" timestamp="1603202410760" />
     <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1006@0.0.1680.1006" timestamp="1603434907437" />
     <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1007@0.0.1680.1007" timestamp="1603444698756" />
-    <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1008@0.0.1680.1008" timestamp="1603368149531" />
+    <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1008@0.0.1680.1008" timestamp="1603675497534" />
     <state x="440" y="235" key="Vcs.Push.Dialog.v2/0.0.1680.998@0.0.1680.998" timestamp="1602127954198" />
     <state x="440" y="235" key="Vcs.Push.Dialog.v2/0.0.1680.999@0.0.1680.999" timestamp="1602079608240" />
     <state x="467" y="155" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603608775181">
