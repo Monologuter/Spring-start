@@ -258,3 +258,36 @@
 2020-10-26 15:05:45,858 262    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
 2020-10-26 15:05:46,161 565    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'product'
 2020-10-26 15:05:46,183 587    [           main] DEBUG ClassPathXmlApplicationContext  - Closing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8, started on Mon Oct 26 15:05:45 CST 2020
+2020-10-26 16:07:46,367 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 16:08:26,119 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 16:15:35,096 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 16:15:35,269 173    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 2 bean definitions from class path resource [applicationContextTest.xml]
+2020-10-26 16:15:35,294 198    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2020-10-26 16:15:35,351 255    [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'driver' in PropertySource 'localProperties' with value of type String
+2020-10-26 16:15:35,351 255    [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'password' in PropertySource 'localProperties' with value of type String
+2020-10-26 16:15:35,351 255    [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'username' in PropertySource 'localProperties' with value of type String
+2020-10-26 16:15:35,351 255    [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'url' in PropertySource 'localProperties' with value of type String
+2020-10-26 16:15:35,357 261    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-10-26 16:15:35,361 265    [           main] WARN  ClassPathXmlApplicationContext  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'conn' defined in class path resource [applicationContextTest.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'driverClassName' of bean class [dell.factoryBean.ConnFactory]: Bean property 'driverClassName' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+2020-10-26 16:15:58,811 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 16:18:24,533 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 16:19:38,058 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 16:19:58,354 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 16:22:22,092 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 16:23:44,278 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 16:26:12,713 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 16:26:12,876 163    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 2 bean definitions from class path resource [applicationContextTest.xml]
+2020-10-26 16:26:12,904 191    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2020-10-26 16:26:12,952 239    [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'jdbc.driver' in PropertySource 'localProperties' with value of type String
+2020-10-26 16:26:12,953 240    [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2020-10-26 16:26:12,953 240    [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2020-10-26 16:26:12,953 240    [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2020-10-26 16:26:12,958 245    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-10-26 16:27:00,284 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 16:27:00,460 176    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 2 bean definitions from class path resource [applicationContextTest.xml]
+2020-10-26 16:27:00,487 203    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2020-10-26 16:27:00,532 248    [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'jdbc.driver' in PropertySource 'localProperties' with value of type String
+2020-10-26 16:27:00,533 249    [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2020-10-26 16:27:00,533 249    [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2020-10-26 16:27:00,533 249    [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2020-10-26 16:27:00,538 254    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'

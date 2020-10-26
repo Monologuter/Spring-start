@@ -106,4 +106,14 @@ public class SpringTest {
 
     }
 
+    /**
+     * 测试内容:配置文件参数化
+     */
+    @Test
+    public void test17() {
+        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("applicationContextTest.xml");
+        Connection conn = (Connection) classPathXmlApplicationContext.getBean("conn");
+        System.out.println("conn = " + conn);
+    }
+
 }
