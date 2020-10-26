@@ -92,4 +92,13 @@ public class SpringTest {
 
     }
 
+
+    /**
+     * 测试内容:测试对象的生命周期
+     */
+    @Test
+    public void test16() {
+        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+    }
+
 }

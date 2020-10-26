@@ -96,10 +96,11 @@
 
     <bean id="conn" class="dell.factoryBean.StaticFactory" factory-method="getConnection"/>
 
-    <bean id="account" scope="singleton" class="dell.scope.Account"/>
-<!--    scope="singleton"表示简单对象只会创建一次-->
+    <bean id="account" scope="singleton" class="dell.scope.Account" lazy-init="true"/>
+<!--    scope="singleton"表示简单对象只会创建一次 如果既想要singleton又想要在获取对象的时候才创建 可以在上述加上lazy-inin懒初始化属性 并将其设置为true-->
 
 <!--    控制简单对象创建的次数只需要在scope属性中指定即可 控制复杂对象创建的次数如果是FactoryBean接口的实现类只需要在实现的issingleton()方法中指定参数是true还是false即可-->
 <!--    要是实例工厂和静态工厂的话还是一样的通过scope属性来控制-->
 
+    <bean id="product"  class="dell.life.Product"/>
 </beans>

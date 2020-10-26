@@ -174,3 +174,16 @@
 2020-10-26 11:33:15,386 213    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
 2020-10-26 11:33:15,405 232    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
 2020-10-26 11:33:15,702 529    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'account'
+2020-10-26 11:48:36,287 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 11:48:36,464 177    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 6 bean definitions from class path resource [applicationContext.xml]
+2020-10-26 11:48:36,523 236    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'address'
+2020-10-26 11:48:36,564 277    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
+2020-10-26 11:48:36,591 304    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-10-26 11:48:36,940 653    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'account'
+2020-10-26 11:48:36,940 653    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'product'
+2020-10-26 14:40:53,046 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 14:40:53,214 168    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 6 bean definitions from class path resource [applicationContext.xml]
+2020-10-26 14:40:53,255 209    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'address'
+2020-10-26 14:40:53,285 239    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
+2020-10-26 14:40:53,305 259    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-10-26 14:40:53,619 573    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'product'
