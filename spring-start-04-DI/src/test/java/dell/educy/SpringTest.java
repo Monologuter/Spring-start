@@ -2,6 +2,7 @@ package dell.educy;
 
 import dell.eduucy.Address;
 import dell.eduucy.Student;
+import dell.factoryBean.ConnectionBeanFactory;
 import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.web.servlet.tags.HtmlEscapeTag;
@@ -49,12 +50,24 @@ public class SpringTest {
 
     /**
      * 测试内容:用于测试factoryBean接口的实现类对象
+     *
+     *   如果只是想获得FactoryBean 要在getbaen后面加上一个&符号
      */
     @Test
     public void test12() {
 
         ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
         Connection conn = (Connection) classPathXmlApplicationContext.getBean("conn");
+        ConnectionBeanFactory conn1 = (ConnectionBeanFactory) classPathXmlApplicationContext.getBean("&conn");
         System.out.println("conn = " + conn);
+        System.out.println("conn1 = " + conn1);
+    }
+
+    /**
+     * 测试内容:
+     */
+    @Test
+    public void test13() {
+
     }
 }

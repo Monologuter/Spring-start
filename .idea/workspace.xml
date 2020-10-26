@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21b9b8b0-fe5f-4cd6-bd3e-b14fab1ac227" name="Default Changelist" comment="使用FactoryBean接口创建复杂对象">
-      <change beforePath="$PROJECT_DIR$/spring-start-04-DI/src/main/java/dell/factoryBean/ConnectionBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-04-DI/src/main/java/dell/factoryBean/ConnectionBeanFactory.java" afterDir="false" />
+    <list default="true" id="21b9b8b0-fe5f-4cd6-bd3e-b14fab1ac227" name="Default Changelist" comment="如果Class中指定的类型是FactoryBean接口的实现类 那么通过id获得的是这个类所创建的复杂对象  此处就是Connection对象">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-start-04-DI/src/test/java/dell/educy/SpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-04-DI/src/test/java/dell/educy/SpringTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +235,7 @@
       <workItem from="1603468870477" duration="3210000" />
       <workItem from="1603593866983" duration="943000" />
       <workItem from="1603607359459" duration="1700000" />
-      <workItem from="1603674341044" duration="815000" />
+      <workItem from="1603674341044" duration="2054000" />
     </task>
     <task id="LOCAL-00001" summary="readme.md">
       <created>1602069836244</created>
@@ -327,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603675491588</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="如果Class中指定的类型是FactoryBean接口的实现类 那么通过id获得的是这个类所创建的复杂对象  此处就是Connection对象">
+      <created>1603676010747</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1603676010747</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,7 +366,8 @@
     <MESSAGE value="p标签" />
     <MESSAGE value="构造方法重载的时候参数个数不同可以通过控制constructor-arg数量来进行区分 构造方法参数个数相同的时候要在constructor-arg标签中加type属性进行区分" />
     <MESSAGE value="使用FactoryBean接口创建复杂对象" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用FactoryBean接口创建复杂对象" />
+    <MESSAGE value="如果Class中指定的类型是FactoryBean接口的实现类 那么通过id获得的是这个类所创建的复杂对象  此处就是Connection对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="如果Class中指定的类型是FactoryBean接口的实现类 那么通过id获得的是这个类所创建的复杂对象  此处就是Connection对象" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="136" key="#MyTest_(1)" timestamp="1602062187725">
@@ -513,14 +522,15 @@
     <state width="728" height="456" key="SwitcherDM/0.0.1680.1006@0.0.1680.1006" timestamp="1603419952915" />
     <state width="728" height="457" key="SwitcherDM/0.0.1680.1007@0.0.1680.1007" timestamp="1603421562094" />
     <state width="728" height="476" key="SwitcherDM/0.0.1680.1008@0.0.1680.1008" timestamp="1603607230581" />
-    <state x="440" y="237" key="Vcs.Push.Dialog.v2" timestamp="1603675497534">
-      <screen x="0" y="0" width="1680" height="1008" />
+    <state x="440" y="237" key="Vcs.Push.Dialog.v2" timestamp="1603676015150">
+      <screen x="0" y="0" width="1680" height="1009" />
     </state>
     <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.0.1680.1004@0.0.1680.1004" timestamp="1603199287694" />
     <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.0.1680.1005@0.0.1680.1005" timestamp="1603202410760" />
     <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1006@0.0.1680.1006" timestamp="1603434907437" />
     <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1007@0.0.1680.1007" timestamp="1603444698756" />
     <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1008@0.0.1680.1008" timestamp="1603675497534" />
+    <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1009@0.0.1680.1009" timestamp="1603676015150" />
     <state x="440" y="235" key="Vcs.Push.Dialog.v2/0.0.1680.998@0.0.1680.998" timestamp="1602127954198" />
     <state x="440" y="235" key="Vcs.Push.Dialog.v2/0.0.1680.999@0.0.1680.999" timestamp="1602079608240" />
     <state x="467" y="155" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603608775181">
