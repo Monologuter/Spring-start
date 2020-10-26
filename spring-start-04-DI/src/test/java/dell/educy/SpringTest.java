@@ -70,6 +70,9 @@ public class SpringTest {
      */
     @Test
     public void test13() {
+        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+        Connection connFactory = (Connection) classPathXmlApplicationContext.getBean("conn");
+        System.out.println("connFactory = " + connFactory);
 
     }
 }
