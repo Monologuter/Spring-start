@@ -102,5 +102,7 @@
 <!--    控制简单对象创建的次数只需要在scope属性中指定即可 控制复杂对象创建的次数如果是FactoryBean接口的实现类只需要在实现的issingleton()方法中指定参数是true还是false即可-->
 <!--    要是实例工厂和静态工厂的话还是一样的通过scope属性来控制-->
 
-    <bean id="product"  class="dell.life.Product"/>
+<!--    <bean id="product"  class="dell.life.Product"/>-->
+
+    <bean id="product" class="dell.life.Product" init-method="myInit"/>
 </beans>
