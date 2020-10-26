@@ -10,17 +10,24 @@ import org.springframework.beans.factory.InitializingBean;
  * @Description:
  */
 @Data
-public class Product /*implements InitializingBean*/ {
+public class Product implements InitializingBean {
+    private  String name;
+
+    public void setName(String name) {
+        this.name = name;
+        System.out.println("Product.setName");
+    }
+
     public Product(){
         System.out.println("无参构造");
     }
 
 
 //    这个就是初始化代码 我们可以做一些初始化的操作 spring会进行调用
-//    @Override
-//    public void afterPropertiesSet() throws Exception {
-//        System.out.println("Product.afterPropertiesSet");
-//    }
+    @Override
+    public void afterPropertiesSet() throws Exception {
+        System.out.println("Product.afterPropertiesSet");
+    }
 
     public void myInit(){
         System.out.println("Product.myInit");

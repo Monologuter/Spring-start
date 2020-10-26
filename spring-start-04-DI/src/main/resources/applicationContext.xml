@@ -104,5 +104,8 @@
 
 <!--    <bean id="product"  class="dell.life.Product"/>-->
 
-    <bean id="product" class="dell.life.Product" init-method="myInit"/>
+    <bean id="product" class="dell.life.Product" init-method="myInit">
+        <property name="name" value="陈亚"/>
+    </bean>
+<!--    如果两种方式都含有的话 两个方法都会执行 但是先会执行实现InitializingBean接口的方法 再执行普通的方法  -->
 </beans>
