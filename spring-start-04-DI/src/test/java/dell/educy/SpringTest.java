@@ -1,5 +1,6 @@
 package dell.educy;
 
+import dell.converter.Person;
 import dell.eduucy.Address;
 import dell.eduucy.Student;
 import dell.factoryBean.ConnectionBeanFactory;
@@ -10,6 +11,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.web.servlet.tags.HtmlEscapeTag;
 
 import java.sql.Connection;
+
 
 /**
  * @Author 马小姐
@@ -114,6 +116,17 @@ public class SpringTest {
         ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("applicationContextTest.xml");
         Connection conn = (Connection) classPathXmlApplicationContext.getBean("conn");
         System.out.println("conn = " + conn);
+    }
+
+
+    /**
+     * 测试内容:测试自动类型转换
+     */
+    @Test
+    public void test18() {
+        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("applicationContextConverter.xml");
+        Person person = (Person) classPathXmlApplicationContext.getBean("person");
+        System.out.println("person = " + person);
     }
 
 }

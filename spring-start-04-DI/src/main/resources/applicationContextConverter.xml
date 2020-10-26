@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean  id="person" class="dell.converter.Person">
+    <property name="name" value="陈亚"/>
+    <property name="birthday" value="2020-10-26" />
+</bean>
+
+
+<!--    创建MyDateConverter类型对象-->
+    <bean id="mydateConverter" class="dell.converter.MyDateConverter"/>
+
+
+<!--用于注册类型转换器-->
+    <bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
+        <property name="converters">
+            <set>
+                <ref bean="mydateConverter"/>
+            </set>
+        </property>
+    </bean>
+</beans>
