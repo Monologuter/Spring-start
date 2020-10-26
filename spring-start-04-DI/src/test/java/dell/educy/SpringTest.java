@@ -3,6 +3,7 @@ package dell.educy;
 import dell.eduucy.Address;
 import dell.eduucy.Student;
 import dell.factoryBean.ConnectionBeanFactory;
+import dell.life.Product;
 import dell.scope.Account;
 import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -99,6 +100,10 @@ public class SpringTest {
     @Test
     public void test16() {
         ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+        Product product = (Product) classPathXmlApplicationContext.getBean("product");
+//        System.out.println("product = " + product);
+        classPathXmlApplicationContext.close();
+
     }
 
 }

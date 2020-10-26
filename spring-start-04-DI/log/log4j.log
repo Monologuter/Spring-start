@@ -211,3 +211,50 @@
 2020-10-26 14:56:11,836 288    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
 2020-10-26 14:56:11,864 316    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
 2020-10-26 14:56:12,204 656    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'product'
+2020-10-26 15:01:25,625 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 15:01:25,816 191    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 6 bean definitions from class path resource [applicationContext.xml]
+2020-10-26 15:01:25,870 245    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'address'
+2020-10-26 15:01:25,907 282    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
+2020-10-26 15:01:25,933 308    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-10-26 15:01:26,382 757    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'product'
+2020-10-26 15:02:35,766 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 15:02:35,944 178    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 6 bean definitions from class path resource [applicationContext.xml]
+2020-10-26 15:02:35,991 225    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'address'
+2020-10-26 15:02:36,023 257    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
+2020-10-26 15:02:36,042 276    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-10-26 15:02:36,392 626    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'product'
+2020-10-26 15:02:57,049 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 15:02:57,197 148    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 6 bean definitions from class path resource [applicationContext.xml]
+2020-10-26 15:02:57,237 188    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'address'
+2020-10-26 15:02:57,265 216    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
+2020-10-26 15:02:57,285 236    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-10-26 15:02:57,574 525    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'product'
+2020-10-26 15:02:57,590 541    [           main] DEBUG ClassPathXmlApplicationContext  - Closing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8, started on Mon Oct 26 15:02:57 CST 2020
+2020-10-26 15:04:10,479 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 15:04:10,633 154    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 6 bean definitions from class path resource [applicationContext.xml]
+2020-10-26 15:04:10,675 196    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'address'
+2020-10-26 15:04:10,706 227    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
+2020-10-26 15:04:10,726 247    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-10-26 15:04:11,054 575    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'product'
+2020-10-26 15:04:11,073 594    [           main] DEBUG ClassPathXmlApplicationContext  - Closing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8, started on Mon Oct 26 15:04:10 CST 2020
+2020-10-26 15:05:06,343 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 15:05:06,564 221    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 6 bean definitions from class path resource [applicationContext.xml]
+2020-10-26 15:05:06,614 271    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'address'
+2020-10-26 15:05:06,646 303    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
+2020-10-26 15:05:06,672 329    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-10-26 15:05:07,069 726    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'product'
+2020-10-26 15:05:07,072 729    [           main] WARN  ClassPathXmlApplicationContext  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'product' defined in class path resource [applicationContext.xml]: Invalid destruction signature; nested exception is org.springframework.beans.factory.support.BeanDefinitionValidationException: Could not find a destroy method named 'destroy' on bean with name 'product'
+2020-10-26 15:05:17,543 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 15:05:17,710 167    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 6 bean definitions from class path resource [applicationContext.xml]
+2020-10-26 15:05:17,753 210    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'address'
+2020-10-26 15:05:17,787 244    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
+2020-10-26 15:05:17,808 265    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-10-26 15:05:18,122 579    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'product'
+2020-10-26 15:05:18,140 597    [           main] DEBUG ClassPathXmlApplicationContext  - Closing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8, started on Mon Oct 26 15:05:17 CST 2020
+2020-10-26 15:05:45,596 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 15:05:45,773 177    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 6 bean definitions from class path resource [applicationContext.xml]
+2020-10-26 15:05:45,813 217    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'address'
+2020-10-26 15:05:45,840 244    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
+2020-10-26 15:05:45,858 262    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-10-26 15:05:46,161 565    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'product'
+2020-10-26 15:05:46,183 587    [           main] DEBUG ClassPathXmlApplicationContext  - Closing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8, started on Mon Oct 26 15:05:45 CST 2020

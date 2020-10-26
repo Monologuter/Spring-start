@@ -1,6 +1,7 @@
 package dell.life;
 
 import lombok.Data;
+import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 
 /**
@@ -10,7 +11,7 @@ import org.springframework.beans.factory.InitializingBean;
  * @Description:
  */
 @Data
-public class Product implements InitializingBean {
+public class Product implements InitializingBean , DisposableBean {
     private  String name;
 
     public void setName(String name) {
@@ -34,4 +35,15 @@ public class Product implements InitializingBean {
     }
 
 
+    @Override
+//    销毁方法
+    public void destroy() throws Exception {
+        System.out.println("Product.destroy");
+    }
+
+
+//    自定义销毁方法
+    public void myDestory(){
+        System.out.println("Product.myDestory");
+    }
 }
