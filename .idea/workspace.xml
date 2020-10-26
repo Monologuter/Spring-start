@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21b9b8b0-fe5f-4cd6-bd3e-b14fab1ac227" name="Default Changelist" comment="如果Class中指定的类型是FactoryBean接口的实现类 那么通过id获得的是这个类所创建的复杂对象  此处就是Connection对象">
+    <list default="true" id="21b9b8b0-fe5f-4cd6-bd3e-b14fab1ac227" name="Default Changelist" comment="如果只是想获得FactoryBean 要在getbaen后面加上一个&amp;符号">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-start-04-DI/log/log4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-04-DI/log/log4j.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-start-04-DI/src/main/java/dell/factoryBean/ConnectionBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-04-DI/src/main/java/dell/factoryBean/ConnectionBeanFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-start-04-DI/src/test/java/dell/educy/SpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-04-DI/src/test/java/dell/educy/SpringTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -235,7 +237,7 @@
       <workItem from="1603468870477" duration="3210000" />
       <workItem from="1603593866983" duration="943000" />
       <workItem from="1603607359459" duration="1700000" />
-      <workItem from="1603674341044" duration="2054000" />
+      <workItem from="1603674341044" duration="2706000" />
     </task>
     <task id="LOCAL-00001" summary="readme.md">
       <created>1602069836244</created>
@@ -335,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603676010747</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="如果只是想获得FactoryBean 要在getbaen后面加上一个&amp;符号">
+      <created>1603677820028</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1603677820028</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +376,8 @@
     <MESSAGE value="构造方法重载的时候参数个数不同可以通过控制constructor-arg数量来进行区分 构造方法参数个数相同的时候要在constructor-arg标签中加type属性进行区分" />
     <MESSAGE value="使用FactoryBean接口创建复杂对象" />
     <MESSAGE value="如果Class中指定的类型是FactoryBean接口的实现类 那么通过id获得的是这个类所创建的复杂对象  此处就是Connection对象" />
-    <option name="LAST_COMMIT_MESSAGE" value="如果Class中指定的类型是FactoryBean接口的实现类 那么通过id获得的是这个类所创建的复杂对象  此处就是Connection对象" />
+    <MESSAGE value="如果只是想获得FactoryBean 要在getbaen后面加上一个&amp;符号" />
+    <option name="LAST_COMMIT_MESSAGE" value="如果只是想获得FactoryBean 要在getbaen后面加上一个&amp;符号" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="136" key="#MyTest_(1)" timestamp="1602062187725">
@@ -403,8 +413,8 @@
       <screen x="0" y="0" width="1680" height="1000" />
     </state>
     <state x="536" y="122" key="Github.UntrackedFilesDialog/0.0.1680.1000@0.0.1680.1000" timestamp="1602069731177" />
-    <state width="1638" height="224" key="GridCell.Tab.0.bottom" timestamp="1603610444896">
-      <screen x="0" y="0" width="1680" height="1008" />
+    <state width="1638" height="255" key="GridCell.Tab.0.bottom" timestamp="1603678180814">
+      <screen x="0" y="0" width="1680" height="1009" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.bottom/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084771" />
     <state width="1638" height="199" key="GridCell.Tab.0.bottom/0.0.1680.1002@0.0.1680.1002" timestamp="1602138896017" />
@@ -414,14 +424,14 @@
     <state width="1638" height="293" key="GridCell.Tab.0.bottom/0.0.1680.1006@0.0.1680.1006" timestamp="1603435015327" />
     <state width="1638" height="283" key="GridCell.Tab.0.bottom/0.0.1680.1007@0.0.1680.1007" timestamp="1603451275006" />
     <state width="1638" height="224" key="GridCell.Tab.0.bottom/0.0.1680.1008@0.0.1680.1008" timestamp="1603610444896" />
-    <state width="1638" height="283" key="GridCell.Tab.0.bottom/0.0.1680.1009@0.0.1680.1009" timestamp="1603462212559" />
+    <state width="1638" height="255" key="GridCell.Tab.0.bottom/0.0.1680.1009@0.0.1680.1009" timestamp="1603678180814" />
     <state width="1638" height="199" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1603190655369" />
     <state width="1638" height="304" key="GridCell.Tab.0.bottom/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224355" />
     <state width="1638" height="98" key="GridCell.Tab.0.bottom/0.0.1680.1013@0.0.1680.1013" timestamp="1602041923787" />
     <state width="1638" height="201" key="GridCell.Tab.0.bottom/0.0.1680.998@0.0.1680.998" timestamp="1602126311344" />
     <state width="1638" height="276" key="GridCell.Tab.0.bottom/0.0.1680.999@0.0.1680.999" timestamp="1602127706286" />
-    <state width="1638" height="224" key="GridCell.Tab.0.center" timestamp="1603610444895">
-      <screen x="0" y="0" width="1680" height="1008" />
+    <state width="1638" height="255" key="GridCell.Tab.0.center" timestamp="1603678180813">
+      <screen x="0" y="0" width="1680" height="1009" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.center/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084770" />
     <state width="1638" height="199" key="GridCell.Tab.0.center/0.0.1680.1002@0.0.1680.1002" timestamp="1602138896017" />
@@ -431,14 +441,14 @@
     <state width="1638" height="293" key="GridCell.Tab.0.center/0.0.1680.1006@0.0.1680.1006" timestamp="1603435015326" />
     <state width="1638" height="283" key="GridCell.Tab.0.center/0.0.1680.1007@0.0.1680.1007" timestamp="1603451275006" />
     <state width="1638" height="224" key="GridCell.Tab.0.center/0.0.1680.1008@0.0.1680.1008" timestamp="1603610444895" />
-    <state width="1638" height="283" key="GridCell.Tab.0.center/0.0.1680.1009@0.0.1680.1009" timestamp="1603462212558" />
+    <state width="1638" height="255" key="GridCell.Tab.0.center/0.0.1680.1009@0.0.1680.1009" timestamp="1603678180813" />
     <state width="1638" height="199" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1603190655369" />
     <state width="1638" height="304" key="GridCell.Tab.0.center/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224353" />
     <state width="1638" height="98" key="GridCell.Tab.0.center/0.0.1680.1013@0.0.1680.1013" timestamp="1602041923786" />
     <state width="1638" height="201" key="GridCell.Tab.0.center/0.0.1680.998@0.0.1680.998" timestamp="1602126311343" />
     <state width="1638" height="276" key="GridCell.Tab.0.center/0.0.1680.999@0.0.1680.999" timestamp="1602127706285" />
-    <state width="1638" height="224" key="GridCell.Tab.0.left" timestamp="1603610444895">
-      <screen x="0" y="0" width="1680" height="1008" />
+    <state width="1638" height="255" key="GridCell.Tab.0.left" timestamp="1603678180813">
+      <screen x="0" y="0" width="1680" height="1009" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.left/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084769" />
     <state width="1638" height="199" key="GridCell.Tab.0.left/0.0.1680.1002@0.0.1680.1002" timestamp="1602138896016" />
@@ -448,14 +458,14 @@
     <state width="1638" height="293" key="GridCell.Tab.0.left/0.0.1680.1006@0.0.1680.1006" timestamp="1603435015326" />
     <state width="1638" height="283" key="GridCell.Tab.0.left/0.0.1680.1007@0.0.1680.1007" timestamp="1603451275005" />
     <state width="1638" height="224" key="GridCell.Tab.0.left/0.0.1680.1008@0.0.1680.1008" timestamp="1603610444895" />
-    <state width="1638" height="283" key="GridCell.Tab.0.left/0.0.1680.1009@0.0.1680.1009" timestamp="1603462212558" />
+    <state width="1638" height="255" key="GridCell.Tab.0.left/0.0.1680.1009@0.0.1680.1009" timestamp="1603678180813" />
     <state width="1638" height="199" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1603190655368" />
     <state width="1638" height="304" key="GridCell.Tab.0.left/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224353" />
     <state width="1638" height="98" key="GridCell.Tab.0.left/0.0.1680.1013@0.0.1680.1013" timestamp="1602041923785" />
     <state width="1638" height="201" key="GridCell.Tab.0.left/0.0.1680.998@0.0.1680.998" timestamp="1602126311342" />
     <state width="1638" height="276" key="GridCell.Tab.0.left/0.0.1680.999@0.0.1680.999" timestamp="1602127706285" />
-    <state width="1638" height="224" key="GridCell.Tab.0.right" timestamp="1603610444895">
-      <screen x="0" y="0" width="1680" height="1008" />
+    <state width="1638" height="255" key="GridCell.Tab.0.right" timestamp="1603678180814">
+      <screen x="0" y="0" width="1680" height="1009" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.right/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084770" />
     <state width="1638" height="199" key="GridCell.Tab.0.right/0.0.1680.1002@0.0.1680.1002" timestamp="1602138896017" />
@@ -465,7 +475,7 @@
     <state width="1638" height="293" key="GridCell.Tab.0.right/0.0.1680.1006@0.0.1680.1006" timestamp="1603435015327" />
     <state width="1638" height="283" key="GridCell.Tab.0.right/0.0.1680.1007@0.0.1680.1007" timestamp="1603451275006" />
     <state width="1638" height="224" key="GridCell.Tab.0.right/0.0.1680.1008@0.0.1680.1008" timestamp="1603610444895" />
-    <state width="1638" height="283" key="GridCell.Tab.0.right/0.0.1680.1009@0.0.1680.1009" timestamp="1603462212558" />
+    <state width="1638" height="255" key="GridCell.Tab.0.right/0.0.1680.1009@0.0.1680.1009" timestamp="1603678180814" />
     <state width="1638" height="199" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1603190655369" />
     <state width="1638" height="304" key="GridCell.Tab.0.right/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224355" />
     <state width="1638" height="98" key="GridCell.Tab.0.right/0.0.1680.1013@0.0.1680.1013" timestamp="1602041923787" />
@@ -522,7 +532,7 @@
     <state width="728" height="456" key="SwitcherDM/0.0.1680.1006@0.0.1680.1006" timestamp="1603419952915" />
     <state width="728" height="457" key="SwitcherDM/0.0.1680.1007@0.0.1680.1007" timestamp="1603421562094" />
     <state width="728" height="476" key="SwitcherDM/0.0.1680.1008@0.0.1680.1008" timestamp="1603607230581" />
-    <state x="440" y="237" key="Vcs.Push.Dialog.v2" timestamp="1603676015150">
+    <state x="440" y="237" key="Vcs.Push.Dialog.v2" timestamp="1603677837099">
       <screen x="0" y="0" width="1680" height="1009" />
     </state>
     <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.0.1680.1004@0.0.1680.1004" timestamp="1603199287694" />
@@ -530,7 +540,7 @@
     <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1006@0.0.1680.1006" timestamp="1603434907437" />
     <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1007@0.0.1680.1007" timestamp="1603444698756" />
     <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1008@0.0.1680.1008" timestamp="1603675497534" />
-    <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1009@0.0.1680.1009" timestamp="1603676015150" />
+    <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1009@0.0.1680.1009" timestamp="1603677837099" />
     <state x="440" y="235" key="Vcs.Push.Dialog.v2/0.0.1680.998@0.0.1680.998" timestamp="1602127954198" />
     <state x="440" y="235" key="Vcs.Push.Dialog.v2/0.0.1680.999@0.0.1680.999" timestamp="1602079608240" />
     <state x="467" y="155" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603608775181">

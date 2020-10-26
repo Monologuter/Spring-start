@@ -31,4 +31,10 @@ public class ConnectionBeanFactory implements FactoryBean<Connection> {
     public boolean isSingleton() {
         return false;
     }
+//    public boolean isSingleton() {
+//        return true;
+//    }
+
+//    如果此时返回的是true的话 只会创建一个对象  如果是false每次使用的时候都会创建一个对象出来
+
 }
