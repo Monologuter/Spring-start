@@ -445,3 +445,8 @@ Caused by: java.lang.IllegalArgumentException
 2020-10-26 17:17:32,352 180    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conversionService'
 2020-10-26 17:17:32,354 182    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'mydateConverter'
 2020-10-26 17:17:32,397 225    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'person'
+2020-10-26 17:23:15,966 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 17:23:16,194 228    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 3 bean definitions from class path resource [applicationContextConverter.xml]
+2020-10-26 17:23:16,246 280    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conversionService'
+2020-10-26 17:23:16,251 285    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'mydateConverter'
+2020-10-26 17:23:16,316 350    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'person'

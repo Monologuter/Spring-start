@@ -9,10 +9,13 @@
 
 
 <!--    创建MyDateConverter类型对象-->
-    <bean id="mydateConverter" class="dell.converter.MyDateConverter"/>
+    <bean id="mydateConverter" class="dell.converter.MyDateConverter">
+        <property name="pattern" value="yyyy-MM-dd"/>
+    </bean>
 
 
 <!--用于注册类型转换器-->
+<!--    注意事项：ConversionServiceFactoryBean在定义属性的时候id的名字一定要是conversionService 不能换成别的-->
     <bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
         <property name="converters">
             <set>
