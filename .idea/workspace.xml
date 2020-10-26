@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21b9b8b0-fe5f-4cd6-bd3e-b14fab1ac227" name="Default Changelist" comment="注意事项：1、如果两种方式都含有的话 两个方法都会执行 但是先会执行实现InitializingBean接口的方法 再执行普通的方法 2、注入一定发生在初始化前面 3、什么叫做初始化操作？主要是对于资源初始化IO sql比较耗时间耗资源之类的的等等。">
-      <change beforePath="$PROJECT_DIR$/spring-start-04-DI/log/log4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-04-DI/log/log4j.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-04-DI/src/main/java/dell/life/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-04-DI/src/main/java/dell/life/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-04-DI/src/test/java/dell/educy/SpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-04-DI/src/test/java/dell/educy/SpringTest.java" afterDir="false" />
+    <list default="true" id="21b9b8b0-fe5f-4cd6-bd3e-b14fab1ac227" name="Default Changelist" comment="对象生命周期销毁阶段可以实现spring的DisposableBean接口也可以自定义方法">
+      <change beforePath="$PROJECT_DIR$/spring-start-04-DI/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-04-DI/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +237,7 @@
       <workItem from="1603468870477" duration="3210000" />
       <workItem from="1603593866983" duration="943000" />
       <workItem from="1603607359459" duration="1700000" />
-      <workItem from="1603674341044" duration="9747000" />
+      <workItem from="1603674341044" duration="10062000" />
     </task>
     <task id="LOCAL-00001" summary="readme.md">
       <created>1602069836244</created>
@@ -409,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603695480764</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="对象生命周期销毁阶段可以实现spring的DisposableBean接口也可以自定义方法">
+      <created>1603696007766</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1603696007766</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +457,8 @@
     <MESSAGE value="bean的初始化第一种方式实现InitializingBean接口" />
     <MESSAGE value="bean初始化的第二种方式写一个普通的方法然后在配置文件中加上init-method属性并将其设置为这个普通方法即可" />
     <MESSAGE value="注意事项：1、如果两种方式都含有的话 两个方法都会执行 但是先会执行实现InitializingBean接口的方法 再执行普通的方法 2、注入一定发生在初始化前面 3、什么叫做初始化操作？主要是对于资源初始化IO sql比较耗时间耗资源之类的的等等。" />
-    <option name="LAST_COMMIT_MESSAGE" value="注意事项：1、如果两种方式都含有的话 两个方法都会执行 但是先会执行实现InitializingBean接口的方法 再执行普通的方法 2、注入一定发生在初始化前面 3、什么叫做初始化操作？主要是对于资源初始化IO sql比较耗时间耗资源之类的的等等。" />
+    <MESSAGE value="对象生命周期销毁阶段可以实现spring的DisposableBean接口也可以自定义方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="对象生命周期销毁阶段可以实现spring的DisposableBean接口也可以自定义方法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="136" key="#MyTest_(1)" timestamp="1602062187725">
@@ -488,7 +494,7 @@
       <screen x="0" y="0" width="1680" height="1000" />
     </state>
     <state x="536" y="122" key="Github.UntrackedFilesDialog/0.0.1680.1000@0.0.1680.1000" timestamp="1602069731177" />
-    <state width="1638" height="311" key="GridCell.Tab.0.bottom" timestamp="1603695685216">
+    <state width="1638" height="311" key="GridCell.Tab.0.bottom" timestamp="1603695945250">
       <screen x="0" y="0" width="1680" height="1008" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.bottom/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084771" />
@@ -498,14 +504,14 @@
     <state width="1638" height="292" key="GridCell.Tab.0.bottom/0.0.1680.1005@0.0.1680.1005" timestamp="1603240852879" />
     <state width="1638" height="293" key="GridCell.Tab.0.bottom/0.0.1680.1006@0.0.1680.1006" timestamp="1603435015327" />
     <state width="1638" height="283" key="GridCell.Tab.0.bottom/0.0.1680.1007@0.0.1680.1007" timestamp="1603451275006" />
-    <state width="1638" height="311" key="GridCell.Tab.0.bottom/0.0.1680.1008@0.0.1680.1008" timestamp="1603695685216" />
+    <state width="1638" height="311" key="GridCell.Tab.0.bottom/0.0.1680.1008@0.0.1680.1008" timestamp="1603695945250" />
     <state width="1638" height="324" key="GridCell.Tab.0.bottom/0.0.1680.1009@0.0.1680.1009" timestamp="1603684115904" />
     <state width="1638" height="199" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1603190655369" />
     <state width="1638" height="304" key="GridCell.Tab.0.bottom/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224355" />
     <state width="1638" height="98" key="GridCell.Tab.0.bottom/0.0.1680.1013@0.0.1680.1013" timestamp="1602041923787" />
     <state width="1638" height="201" key="GridCell.Tab.0.bottom/0.0.1680.998@0.0.1680.998" timestamp="1602126311344" />
     <state width="1638" height="276" key="GridCell.Tab.0.bottom/0.0.1680.999@0.0.1680.999" timestamp="1602127706286" />
-    <state width="1638" height="311" key="GridCell.Tab.0.center" timestamp="1603695685215">
+    <state width="1638" height="311" key="GridCell.Tab.0.center" timestamp="1603695945249">
       <screen x="0" y="0" width="1680" height="1008" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.center/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084770" />
@@ -515,14 +521,14 @@
     <state width="1638" height="292" key="GridCell.Tab.0.center/0.0.1680.1005@0.0.1680.1005" timestamp="1603240852878" />
     <state width="1638" height="293" key="GridCell.Tab.0.center/0.0.1680.1006@0.0.1680.1006" timestamp="1603435015326" />
     <state width="1638" height="283" key="GridCell.Tab.0.center/0.0.1680.1007@0.0.1680.1007" timestamp="1603451275006" />
-    <state width="1638" height="311" key="GridCell.Tab.0.center/0.0.1680.1008@0.0.1680.1008" timestamp="1603695685215" />
+    <state width="1638" height="311" key="GridCell.Tab.0.center/0.0.1680.1008@0.0.1680.1008" timestamp="1603695945249" />
     <state width="1638" height="324" key="GridCell.Tab.0.center/0.0.1680.1009@0.0.1680.1009" timestamp="1603684115904" />
     <state width="1638" height="199" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1603190655369" />
     <state width="1638" height="304" key="GridCell.Tab.0.center/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224353" />
     <state width="1638" height="98" key="GridCell.Tab.0.center/0.0.1680.1013@0.0.1680.1013" timestamp="1602041923786" />
     <state width="1638" height="201" key="GridCell.Tab.0.center/0.0.1680.998@0.0.1680.998" timestamp="1602126311343" />
     <state width="1638" height="276" key="GridCell.Tab.0.center/0.0.1680.999@0.0.1680.999" timestamp="1602127706285" />
-    <state width="1638" height="311" key="GridCell.Tab.0.left" timestamp="1603695685215">
+    <state width="1638" height="311" key="GridCell.Tab.0.left" timestamp="1603695945248">
       <screen x="0" y="0" width="1680" height="1008" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.left/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084769" />
@@ -532,14 +538,14 @@
     <state width="1638" height="292" key="GridCell.Tab.0.left/0.0.1680.1005@0.0.1680.1005" timestamp="1603240852877" />
     <state width="1638" height="293" key="GridCell.Tab.0.left/0.0.1680.1006@0.0.1680.1006" timestamp="1603435015326" />
     <state width="1638" height="283" key="GridCell.Tab.0.left/0.0.1680.1007@0.0.1680.1007" timestamp="1603451275005" />
-    <state width="1638" height="311" key="GridCell.Tab.0.left/0.0.1680.1008@0.0.1680.1008" timestamp="1603695685215" />
+    <state width="1638" height="311" key="GridCell.Tab.0.left/0.0.1680.1008@0.0.1680.1008" timestamp="1603695945248" />
     <state width="1638" height="324" key="GridCell.Tab.0.left/0.0.1680.1009@0.0.1680.1009" timestamp="1603684115903" />
     <state width="1638" height="199" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1603190655368" />
     <state width="1638" height="304" key="GridCell.Tab.0.left/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224353" />
     <state width="1638" height="98" key="GridCell.Tab.0.left/0.0.1680.1013@0.0.1680.1013" timestamp="1602041923785" />
     <state width="1638" height="201" key="GridCell.Tab.0.left/0.0.1680.998@0.0.1680.998" timestamp="1602126311342" />
     <state width="1638" height="276" key="GridCell.Tab.0.left/0.0.1680.999@0.0.1680.999" timestamp="1602127706285" />
-    <state width="1638" height="311" key="GridCell.Tab.0.right" timestamp="1603695685216">
+    <state width="1638" height="311" key="GridCell.Tab.0.right" timestamp="1603695945249">
       <screen x="0" y="0" width="1680" height="1008" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.right/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084770" />
@@ -549,7 +555,7 @@
     <state width="1638" height="292" key="GridCell.Tab.0.right/0.0.1680.1005@0.0.1680.1005" timestamp="1603240852878" />
     <state width="1638" height="293" key="GridCell.Tab.0.right/0.0.1680.1006@0.0.1680.1006" timestamp="1603435015327" />
     <state width="1638" height="283" key="GridCell.Tab.0.right/0.0.1680.1007@0.0.1680.1007" timestamp="1603451275006" />
-    <state width="1638" height="311" key="GridCell.Tab.0.right/0.0.1680.1008@0.0.1680.1008" timestamp="1603695685216" />
+    <state width="1638" height="311" key="GridCell.Tab.0.right/0.0.1680.1008@0.0.1680.1008" timestamp="1603695945249" />
     <state width="1638" height="324" key="GridCell.Tab.0.right/0.0.1680.1009@0.0.1680.1009" timestamp="1603684115904" />
     <state width="1638" height="199" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1603190655369" />
     <state width="1638" height="304" key="GridCell.Tab.0.right/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224355" />
