@@ -1,5 +1,6 @@
 package dell.educy;
 
+import dell.beanPostProcessor.Categroy;
 import dell.converter.Person;
 import dell.eduucy.Address;
 import dell.eduucy.Student;
@@ -7,6 +8,7 @@ import dell.factoryBean.ConnectionBeanFactory;
 import dell.life.Product;
 import dell.scope.Account;
 import org.junit.Test;
+import org.springframework.cglib.core.ClassLoaderAwareGeneratorStrategy;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.web.servlet.tags.HtmlEscapeTag;
 
@@ -127,6 +129,17 @@ public class SpringTest {
         ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("applicationContextConverter.xml");
         Person person = (Person) classPathXmlApplicationContext.getBean("person");
         System.out.println("person = " + person);
+    }
+
+
+    /**
+     * 测试内容:用于测试beanPostProcessor
+     */
+    @Test
+    public void test19() {
+        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("applicationContextTest2.xml");
+        Categroy categroy = (Categroy) classPathXmlApplicationContext.getBean("categroy");
+        System.out.println("categroy = " + categroy);
     }
 
 }

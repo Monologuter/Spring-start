@@ -453,3 +453,19 @@ Caused by: java.lang.IllegalArgumentException
 2020-10-26 17:30:58,039 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2473b9ce
 2020-10-26 17:30:58,254 215    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 1 bean definitions from class path resource [applicationContextConverter.xml]
 2020-10-26 17:30:58,291 252    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'person'
+2020-10-26 19:45:56,178 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 19:45:56,316 138    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 2 bean definitions from class path resource [applicationContextTest2.xml]
+2020-10-26 19:45:56,342 164    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'mybeanProcesstor'
+2020-10-26 19:45:56,359 181    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'categroy'
+2020-10-26 19:46:46,351 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 19:46:46,499 148    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 2 bean definitions from class path resource [applicationContextTest2.xml]
+2020-10-26 19:46:46,525 174    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'mybeanProcesstor'
+2020-10-26 19:46:46,542 191    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'categroy'
+2020-10-26 19:47:03,501 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 19:47:03,631 130    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 2 bean definitions from class path resource [applicationContextTest2.xml]
+2020-10-26 19:47:03,653 152    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'mybeanProcesstor'
+2020-10-26 19:47:03,669 168    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'categroy'
+2020-10-26 19:51:03,208 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23223dd8
+2020-10-26 19:51:03,355 147    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 2 bean definitions from class path resource [applicationContextTest2.xml]
+2020-10-26 19:51:03,378 170    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'mybeanProcesstor'
+2020-10-26 19:51:03,403 195    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'categroy'
