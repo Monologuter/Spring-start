@@ -450,3 +450,6 @@ Caused by: java.lang.IllegalArgumentException
 2020-10-26 17:23:16,246 280    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conversionService'
 2020-10-26 17:23:16,251 285    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'mydateConverter'
 2020-10-26 17:23:16,316 350    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'person'
+2020-10-26 17:30:58,039 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2473b9ce
+2020-10-26 17:30:58,254 215    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 1 bean definitions from class path resource [applicationContextConverter.xml]
+2020-10-26 17:30:58,291 252    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'person'

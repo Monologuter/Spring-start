@@ -4,23 +4,25 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 <bean  id="person" class="dell.converter.Person">
     <property name="name" value="陈亚"/>
-    <property name="birthday" value="2020-10-26" />
+    <property name="birthday" value="2020/10/26" />
+<!--    spring内置了日期类型的转换器  如果字符串格式是yyyy/mm/dd的格式  是可以不需要自定义类型转换的-->
 </bean>
 
 
-<!--    创建MyDateConverter类型对象-->
-    <bean id="mydateConverter" class="dell.converter.MyDateConverter">
-        <property name="pattern" value="yyyy-MM-dd"/>
-    </bean>
+
+<!--&lt;!&ndash;    创建MyDateConverter类型对象&ndash;&gt;-->
+<!--    <bean id="mydateConverter" class="dell.converter.MyDateConverter">-->
+<!--        <property name="pattern" value="yyyy-MM-dd"/>-->
+<!--    </bean>-->
 
 
-<!--用于注册类型转换器-->
-<!--    注意事项：ConversionServiceFactoryBean在定义属性的时候id的名字一定要是conversionService 不能换成别的-->
-    <bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
-        <property name="converters">
-            <set>
-                <ref bean="mydateConverter"/>
-            </set>
-        </property>
-    </bean>
+<!--&lt;!&ndash;用于注册类型转换器&ndash;&gt;-->
+<!--&lt;!&ndash;    注意事项：ConversionServiceFactoryBean在定义属性的时候id的名字一定要是conversionService 不能换成别的&ndash;&gt;-->
+<!--    <bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">-->
+<!--        <property name="converters">-->
+<!--            <set>-->
+<!--                <ref bean="mydateConverter"/>-->
+<!--            </set>-->
+<!--        </property>-->
+<!--    </bean>-->
 </beans>
