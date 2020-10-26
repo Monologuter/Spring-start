@@ -58,11 +58,11 @@ public class SpringTest {
 
         ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
         Connection conn = (Connection) classPathXmlApplicationContext.getBean("conn");
-        Connection conn2 = (Connection) classPathXmlApplicationContext.getBean("conn");
-        ConnectionBeanFactory conn1 = (ConnectionBeanFactory) classPathXmlApplicationContext.getBean("&conn");
+//        Connection conn2 = (Connection) classPathXmlApplicationContext.getBean("conn");
+//        ConnectionBeanFactory conn1 = (ConnectionBeanFactory) classPathXmlApplicationContext.getBean("&conn");
         System.out.println("conn = " + conn);
-        System.out.println("conn2 = " + conn2);
-        System.out.println("conn1 = " + conn1);
+//        System.out.println("conn2 = " + conn2);
+//        System.out.println("conn1 = " + conn1);
     }
 
     /**

@@ -1,6 +1,7 @@
 package dell.factoryBean;
 
 import com.mysql.jdbc.Driver;
+import lombok.Data;
 import org.springframework.beans.factory.FactoryBean;
 import org.springframework.cglib.proxy.Factory;
 
@@ -13,11 +14,18 @@ import java.sql.DriverManager;
  * @Version 1.0
  * @Description:
  */
+
+@Data
 public class ConnectionBeanFactory implements FactoryBean<Connection> {
+    private String driverClassName;
+    private String url;
+    private String name;
+    private String password;
     @Override
     public Connection getObject() throws Exception {
-        Class.forName("com.mysql.jdbc.Driver");
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3307/easy_mybatis?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=CTT", "root", "123456");
+        Class.forName(driverClassName);
+//        jdbc:mysql://localhost:3307/easy_mybatis?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=CTT
+        Connection connection = DriverManager.getConnection(url, name, password);
 
         return connection;
     }

@@ -80,8 +80,16 @@
 
     </bean>
 
+
+    <bean id="conn" class="dell.factoryBean.ConnectionBeanFactory">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3307/easy_mybatis?useUnicode=true&amp;characterEncoding=utf8&amp;useSSL=false&amp;serverTimezone=CTT"/>
+        <property name="name" value="root"/>
+        <property name="password" value="123456"/>
+    </bean>
+
 <!--    如果Class中指定的类型是FactoryBean接口的实现类 那么通过id获得的是这个类所创建的复杂对象  此处就是Connection对象-->
-    <bean id="conn" class="dell.factoryBean.ConnectionBeanFactory"/>
+<!--    <bean id="conn" class="dell.factoryBean.ConnectionBeanFactory"/>-->
 
 
 
