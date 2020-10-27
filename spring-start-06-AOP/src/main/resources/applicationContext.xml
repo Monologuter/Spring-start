@@ -6,6 +6,7 @@
     <bean id="userService" class="springProxy.UserServiceImpl"/>
     <bean id="orderService" class="springProxy.OrderServiceImpl"/>
     <bean id="before" class="dynamic.Before"/>
+    <bean id="beforeNew" class="dynamic.BeforeNew"/>
 
     <aop:config>
 <!--    execution(* *(..))    所有的方法都作为切入点-->
@@ -13,6 +14,14 @@
 
 <!--        组装-->
         <aop:advisor advice-ref="before" pointcut-ref="pc"/>
+
+
+    </aop:config>
+
+
+    <aop:config>
+        <aop:pointcut id="pcnew" expression="execution(* *(..))"/>
+        <aop:advisor advice-ref="beforeNew" pointcut-ref="pcnew"/>
     </aop:config>
 
 </beans>
