@@ -13,6 +13,6 @@ public class OrderServiceImpl implements OrderService {
     @Override
     public void showOrder() {
         System.out.println("OrderServiceImpl.showOrder");
-        throw new RuntimeException("测试异常");
+//        throw new RuntimeException("测试异常");
     }
 }
