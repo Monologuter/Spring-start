@@ -7,21 +7,29 @@
     <bean id="orderService" class="springProxy.OrderServiceImpl"/>
     <bean id="before" class="dynamic.Before"/>
     <bean id="beforeNew" class="dynamic.BeforeNew"/>
+    <bean id="arround" class="dynamic.Around"/>
+
+<!--    <aop:config>-->
+<!--&lt;!&ndash;    execution(* *(..))    所有的方法都作为切入点&ndash;&gt;-->
+<!--        <aop:pointcut id="pc" expression="execution(* *(..))"/>-->
+
+<!--&lt;!&ndash;        组装&ndash;&gt;-->
+<!--        <aop:advisor advice-ref="before" pointcut-ref="pc"/>-->
+
+
+<!--    </aop:config>-->
+
+
+<!--    <aop:config>-->
+<!--        <aop:pointcut id="pcnew" expression="execution(* *(..))"/>-->
+<!--        <aop:advisor advice-ref="beforeNew" pointcut-ref="pcnew"/>-->
+<!--    </aop:config>-->
+
 
     <aop:config>
-<!--    execution(* *(..))    所有的方法都作为切入点-->
-        <aop:pointcut id="pc" expression="execution(* *(..))"/>
+        <aop:pointcut id="pc2" expression="execution(* *(..))"/>
+        <aop:advisor advice-ref="arround" pointcut-ref="pc2"/>
 
-<!--        组装-->
-        <aop:advisor advice-ref="before" pointcut-ref="pc"/>
-
-
-    </aop:config>
-
-
-    <aop:config>
-        <aop:pointcut id="pcnew" expression="execution(* *(..))"/>
-        <aop:advisor advice-ref="beforeNew" pointcut-ref="pcnew"/>
     </aop:config>
 
 </beans>
