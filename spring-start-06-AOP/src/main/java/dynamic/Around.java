@@ -22,7 +22,9 @@ public class Around implements MethodInterceptor {
 
     @Override
     public Object invoke(MethodInvocation methodInvocation) throws Throwable {
+        System.out.println("额外功能");
         Object proceed = methodInvocation.proceed();
+        System.out.println("额外功能");
         return proceed;
     }
 }
