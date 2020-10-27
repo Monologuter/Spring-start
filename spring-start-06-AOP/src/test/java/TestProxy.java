@@ -1,4 +1,5 @@
 import org.junit.Test;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import springProxy.*;
 
 /**
@@ -20,5 +21,22 @@ public class TestProxy {
 
         OrderService orderService = new OrderServiceProxy();
         orderService.showOrder();
+    }
+
+
+    /**
+     * 测试内容:测试UserService和OrderService动态代理
+     */
+    @Test
+    public void test2() {
+        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+        UserService userService = (UserService) classPathXmlApplicationContext.getBean("userService");
+        userService.register(new User());
+        userService.login("陈亚","123456");
+        System.out.println("--------------------------------------------------------------------");
+        OrderService orderService = (OrderService) classPathXmlApplicationContext.getBean("orderService");
+        orderService.showOrder();
+
+
     }
 }
