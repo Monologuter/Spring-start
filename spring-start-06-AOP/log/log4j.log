@@ -119,3 +119,12 @@
 2020-10-27 17:19:04,475 375    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'orderService'
 2020-10-27 17:19:04,478 378    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'before'
 2020-10-27 17:19:04,478 378    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'beforeNew'
+2020-10-27 17:23:22,313 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@47f37ef1
+2020-10-27 17:23:22,464 151    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 8 bean definitions from class path resource [applicationContext.xml]
+2020-10-27 17:23:22,490 177    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2020-10-27 17:23:22,535 222    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'userService'
+2020-10-27 17:23:22,535 222    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2020-10-27 17:23:22,639 326    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'arround'
+2020-10-27 17:23:22,652 339    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'orderService'
+2020-10-27 17:23:22,656 343    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'before'
+2020-10-27 17:23:22,657 344    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'beforeNew'
