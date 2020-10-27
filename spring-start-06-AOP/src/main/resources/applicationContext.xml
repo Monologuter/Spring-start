@@ -9,14 +9,21 @@
     <bean id="beforeNew" class="dynamic.BeforeNew"/>
     <bean id="arround" class="dynamic.Around"/>
 
+
+<!--切入点表达式详解-->
+<!--    public void add(int a , int b)-->
+<!--    *            * (..)-->
+<!--    第一个*代表的是修饰符-->
+<!--    第二个*代表的是方法名-->
+<!--    ()代表的是参数列表  点点代表的是对于参数没有要求  参数是什么类型都可以-->
+
 <!--    <aop:config>-->
 <!--&lt;!&ndash;    execution(* *(..))    所有的方法都作为切入点&ndash;&gt;-->
 <!--        <aop:pointcut id="pc" expression="execution(* *(..))"/>-->
+<!--        -->
 
 <!--&lt;!&ndash;        组装&ndash;&gt;-->
 <!--        <aop:advisor advice-ref="before" pointcut-ref="pc"/>-->
-
-
 <!--    </aop:config>-->
 
 
@@ -27,9 +34,29 @@
 
 
     <aop:config>
-        <aop:pointcut id="pc2" expression="execution(* *(..))"/>
-        <aop:advisor advice-ref="arround" pointcut-ref="pc2"/>
+<!--        定义所有方法为切入点-->
+<!--        <aop:pointcut id="pc2" expression="execution(* *(..))"/>-->
 
+<!--        只定义login方法为切入点-->
+<!--        <aop:pointcut id="pc2" expression="execution(* login(..))"/>-->
+
+<!--        只定义login方法且有一个字符串类型的参数作为切入点
+            注意事项：不是java.lang包下面的类型必须要写全限定名 比如User类型就要写成 java.springProxy.User
+
+-->
+<!--        <aop:pointcut id="pc2" expression="execution(* login( String))"/>-->
+
+<!--        (String , ..)表示第一个参数只要是String类型的就好了 后面的没有要求-->
+<!--        <aop:pointcut id="pc2" expression="execution(* login( String,..))"/>-->
+
+<!--        注意事项：上面所讲的表达式不精准
+            分析：可能同一个含有相同参数的方法的类在不同的包中都含有 而且都在配置文件中注册了 如果再使用这种方式进行匹配就不准确了  需要使用方法的全限定名
+
+-->
+
+<!--        精准方法切入点限定：使用方法的全限定名-->
+        <aop:pointcut id="pc2" expression="execution(*  springProxy.UserServiceImpl.login( String,..))"/>
+        <aop:advisor advice-ref="arround" pointcut-ref="pc2"/>
     </aop:config>
 
 </beans>
