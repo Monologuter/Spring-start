@@ -23,7 +23,13 @@ public class Around implements MethodInterceptor {
     @Override
     public Object invoke(MethodInvocation methodInvocation) throws Throwable {
         System.out.println("额外功能");
-        Object proceed = methodInvocation.proceed();
+        Object proceed = null;
+        try {
+            proceed = methodInvocation.proceed();
+        } catch (Throwable throwable) {
+            System.out.println("原始代码抛出异常执行的额外功能");
+            throwable.printStackTrace();
+        }
         System.out.println("额外功能");
         return proceed;
     }
