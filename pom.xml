@@ -13,6 +13,7 @@
       <module>spring-start-03-IOC</module>
       <module>spring-start-04-DI</module>
       <module>spring-start-05-AutWrite</module>
+      <module>spring-start-06-AOP</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -88,6 +89,29 @@
       <artifactId>spring-webmvc</artifactId>
       <version>5.2.5.RELEASE</version>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-aop</artifactId>
+      <version>5.2.9.RELEASE</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjweaver</artifactId>
+      <version>1.9.6</version>
+      <scope>runtime</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjrt -->
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjrt</artifactId>
+      <version>1.9.6</version>
+    </dependency>
+
 
 
   </dependencies>
