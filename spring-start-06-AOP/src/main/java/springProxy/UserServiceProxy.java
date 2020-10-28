@@ -19,7 +19,7 @@ public class UserServiceProxy implements UserService{
 
     @Override
     public boolean login(String name, String password) {
-        System.out.println("登录");
+        System.out.println("登录的额外功能");
         return userService.login(name, password);
     }
 }

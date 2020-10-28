@@ -30,13 +30,13 @@ public class TestProxy {
     @Test
     public void test2() {
         ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
-        UserService userService = (UserService) classPathXmlApplicationContext.getBean("userService");
+//        UserService userService = (UserService) classPathXmlApplicationContext.getBean("userService");
 //        userService.register(new User());
-        userService.login("陈亚","123456");
+//        userService.login("陈亚","123456");
 //        boolean RESULT = userService.login("陈亚", "123456");
 //        System.out.println("RESULT = " + RESULT);
 //        System.out.println("--------------------------------------------------------------------");
-//        OrderService orderService = (OrderService) classPathXmlApplicationContext.getBean("orderService");
-//        orderService.showOrder();
+        OrderService orderService = (OrderService) classPathXmlApplicationContext.getBean("orderService");
+        orderService.showOrder();
     }
 }

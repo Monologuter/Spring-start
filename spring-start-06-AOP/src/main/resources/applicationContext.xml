@@ -55,7 +55,15 @@
 -->
 
 <!--        精准方法切入点限定：使用方法的全限定名-->
-        <aop:pointcut id="pc2" expression="execution(*  springProxy.UserServiceImpl.login( String,..))"/>
+<!--        <aop:pointcut id="pc2" expression="execution(*  springProxy.UserServiceImpl.login( String,..))"/>-->
+
+
+
+
+<!--        类切入点-->
+<!--        <aop:pointcut id="pc2" expression="execution(*  springProxy.UserServiceImpl.login(String,..))"/>-->
+<!--        将指定类所有的功能都作为切面-->
+        <aop:pointcut id="pc2" expression="execution(*  springProxy.UserServiceImpl.*(..))"/>
         <aop:advisor advice-ref="arround" pointcut-ref="pc2"/>
     </aop:config>
 
