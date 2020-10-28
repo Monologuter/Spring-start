@@ -62,9 +62,18 @@
 
 <!--        类切入点-->
 <!--        <aop:pointcut id="pc2" expression="execution(*  springProxy.UserServiceImpl.login(String,..))"/>-->
-<!--        将指定类所有的功能都作为切面-->
+<!--        将指定类所有的功能都作为切面
+
+            注意事项：
+                1、类中的所有方法都加上额外的功能：springProxy.UserServiceImpl.*(..))
+                2、忽略包：类中只存在一级包的时候* *.UserServiceImpl.*(..)
+                         但是当类中存在多级包的时候 这个时候上述的方式就不行了 需要忽略包  具体的语法是 * *..UserServiceImpl.*(..)
+
+
+-->
         <aop:pointcut id="pc2" expression="execution(*  springProxy.UserServiceImpl.*(..))"/>
         <aop:advisor advice-ref="arround" pointcut-ref="pc2"/>
+
     </aop:config>
 
 </beans>
