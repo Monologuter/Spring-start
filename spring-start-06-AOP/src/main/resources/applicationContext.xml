@@ -74,9 +74,14 @@
 
 
 <!--        包切入点：将指定包中的所有方法都作为切入点加入新的功能  springProxy包中的所有的类所有的方法 -->
-        <aop:pointcut id="pc2" expression="execution(*  springProxy.*.*(..))"/>
+<!--        <aop:pointcut id="pc2" expression="execution(*  springProxy.*.*(..))"/>-->
 
-        <aop:advisor advice-ref="arround" pointcut-ref="pc2"/>
+
+
+        <aop:pointcut id="pc" expression="args(String,String)"/>
+
+
+        <aop:advisor advice-ref="arround" pointcut-ref="pc"/>
 
     </aop:config>
 
