@@ -83,7 +83,13 @@
 
 
 <!--        <aop:pointcut id="pc" expression="within(*..UserServiceImpl)"/>-->
-        <aop:pointcut id="pc" expression="within(springProxy..*)"/>
+<!--        <aop:pointcut id="pc" expression="within(springProxy..*)"/>-->
+
+
+
+
+
+        <aop:pointcut id="pc"  expression="@annotation(Log.Log)"/>
 
 
         <aop:advisor advice-ref="arround" pointcut-ref="pc"/>

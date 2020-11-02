@@ -1,4 +1,5 @@
 package springProxy;
+import  Log.*;
 
 /**
  * @Author 马小姐
@@ -7,6 +8,8 @@ package springProxy;
  * @Description:
  */
 public class UserServiceImpl implements UserService {
+
+    @Log
     @Override
     public void register(User user) {
         System.out.println("UserServiceImpl.register");
