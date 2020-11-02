@@ -77,8 +77,13 @@
 <!--        <aop:pointcut id="pc2" expression="execution(*  springProxy.*.*(..))"/>-->
 
 
+<!--        包切入点函数args-->
+<!--        <aop:pointcut id="pc" expression="args(String,String)"/>-->
 
-        <aop:pointcut id="pc" expression="args(String,String)"/>
+
+
+<!--        <aop:pointcut id="pc" expression="within(*..UserServiceImpl)"/>-->
+        <aop:pointcut id="pc" expression="within(springProxy..*)"/>
 
 
         <aop:advisor advice-ref="arround" pointcut-ref="pc"/>
