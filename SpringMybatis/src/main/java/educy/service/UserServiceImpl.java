@@ -14,7 +14,9 @@ import org.springframework.transaction.annotation.Transactional;
  */
 
 @Data
-@Transactional(isolation = Isolation.READ_COMMITTED)
+//@Transactional(isolation = Isolation.READ_COMMITTED)
+@Transactional(isolation = Isolation.REPEATABLE_READ)
+
 public class UserServiceImpl implements UserService {
     private UserMapper userMapper;
 
