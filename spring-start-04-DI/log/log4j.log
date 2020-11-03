@@ -511,3 +511,87 @@ Caused by: java.lang.IllegalArgumentException
 2020-10-27 11:07:42,935 787    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'address'
 2020-10-27 11:07:42,936 788    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
 2020-10-27 11:07:42,937 789    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-11-03 09:36:21,661 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1936f0f5
+2020-11-03 09:36:21,801 140    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 6 bean definitions from class path resource [applicationContext.xml]
+2020-11-03 09:36:21,835 174    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'address'
+2020-11-03 09:36:21,859 198    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
+2020-11-03 09:36:21,879 218    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-11-03 09:36:22,185 524    [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@61dd025
+2020-11-03 09:36:22,205 544    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 6 bean definitions from class path resource [applicationContext.xml]
+2020-11-03 09:36:22,206 545    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'address'
+2020-11-03 09:36:22,206 545    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
+2020-11-03 09:36:22,207 546    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-11-03 09:36:22,220 559    [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6ac13091
+2020-11-03 09:36:22,236 575    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 6 bean definitions from class path resource [applicationContext.xml]
+2020-11-03 09:36:22,237 576    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'address'
+2020-11-03 09:36:22,237 576    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
+2020-11-03 09:36:22,238 577    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-11-03 09:36:22,256 595    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'account'
+2020-11-03 09:36:22,257 596    [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1b1473ab
+2020-11-03 09:36:22,272 611    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 6 bean definitions from class path resource [applicationContext.xml]
+2020-11-03 09:36:22,273 612    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'address'
+2020-11-03 09:36:22,273 612    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
+2020-11-03 09:36:22,274 613    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-11-03 09:36:22,296 635    [           main] DEBUG ClassPathXmlApplicationContext  - Closing org.springframework.context.support.ClassPathXmlApplicationContext@1b1473ab, started on Tue Nov 03 09:36:22 CST 2020
+2020-11-03 09:36:22,304 643    [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9225652
+2020-11-03 09:36:22,328 667    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 2 bean definitions from class path resource [applicationContextTest.xml]
+2020-11-03 09:36:22,329 668    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2020-11-03 09:36:22,344 683    [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'jdbc.driver' in PropertySource 'localProperties' with value of type String
+2020-11-03 09:36:22,344 683    [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2020-11-03 09:36:22,344 683    [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2020-11-03 09:36:22,344 683    [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2020-11-03 09:36:22,346 685    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-11-03 09:36:22,365 704    [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ffead27
+2020-11-03 09:36:22,375 714    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 1 bean definitions from class path resource [applicationContextConverter.xml]
+2020-11-03 09:36:22,376 715    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'person'
+2020-11-03 09:36:22,378 717    [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6d763516
+2020-11-03 09:36:22,387 726    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 2 bean definitions from class path resource [applicationContextTest2.xml]
+2020-11-03 09:36:22,388 727    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'mybeanProcesstor'
+2020-11-03 09:36:22,388 727    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'categroy'
+2020-11-03 09:36:22,390 729    [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@223d2c72
+2020-11-03 09:36:22,401 740    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 6 bean definitions from class path resource [applicationContext.xml]
+2020-11-03 09:36:22,402 741    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'address'
+2020-11-03 09:36:22,403 742    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
+2020-11-03 09:36:22,404 743    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-11-03 09:36:55,147 0      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1936f0f5
+2020-11-03 09:36:55,265 118    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 6 bean definitions from class path resource [applicationContext.xml]
+2020-11-03 09:36:55,294 147    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'address'
+2020-11-03 09:36:55,314 167    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
+2020-11-03 09:36:55,328 181    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-11-03 09:36:55,591 444    [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@61dd025
+2020-11-03 09:36:55,615 468    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 6 bean definitions from class path resource [applicationContext.xml]
+2020-11-03 09:36:55,616 469    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'address'
+2020-11-03 09:36:55,617 470    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
+2020-11-03 09:36:55,618 471    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-11-03 09:36:55,634 487    [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6ac13091
+2020-11-03 09:36:55,652 505    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 6 bean definitions from class path resource [applicationContext.xml]
+2020-11-03 09:36:55,653 506    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'address'
+2020-11-03 09:36:55,654 507    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
+2020-11-03 09:36:55,654 507    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-11-03 09:36:55,670 523    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'account'
+2020-11-03 09:36:55,671 524    [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1b1473ab
+2020-11-03 09:36:55,685 538    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 6 bean definitions from class path resource [applicationContext.xml]
+2020-11-03 09:36:55,686 539    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'address'
+2020-11-03 09:36:55,686 539    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
+2020-11-03 09:36:55,687 540    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-11-03 09:36:55,708 561    [           main] DEBUG ClassPathXmlApplicationContext  - Closing org.springframework.context.support.ClassPathXmlApplicationContext@1b1473ab, started on Tue Nov 03 09:36:55 CST 2020
+2020-11-03 09:36:55,715 568    [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9225652
+2020-11-03 09:36:55,736 589    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 2 bean definitions from class path resource [applicationContextTest.xml]
+2020-11-03 09:36:55,738 591    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2020-11-03 09:36:55,748 601    [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'jdbc.driver' in PropertySource 'localProperties' with value of type String
+2020-11-03 09:36:55,749 602    [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2020-11-03 09:36:55,749 602    [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2020-11-03 09:36:55,749 602    [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2020-11-03 09:36:55,750 603    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'
+2020-11-03 09:36:55,768 621    [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ffead27
+2020-11-03 09:36:55,776 629    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 1 bean definitions from class path resource [applicationContextConverter.xml]
+2020-11-03 09:36:55,777 630    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'person'
+2020-11-03 09:36:55,779 632    [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6d763516
+2020-11-03 09:36:55,786 639    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 2 bean definitions from class path resource [applicationContextTest2.xml]
+2020-11-03 09:36:55,787 640    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'mybeanProcesstor'
+2020-11-03 09:36:55,787 640    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'categroy'
+2020-11-03 09:36:55,789 642    [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@223d2c72
+2020-11-03 09:36:55,799 652    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 6 bean definitions from class path resource [applicationContext.xml]
+2020-11-03 09:36:55,800 653    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'address'
+2020-11-03 09:36:55,801 654    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'customer'
+2020-11-03 09:36:55,801 654    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'conn'

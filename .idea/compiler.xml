@@ -9,10 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-start-04-DI" />
         <module name="spring-start-05-AutWrite" />
-        <module name="spring-start-03-IOC" />
         <module name="spring-start-06-AOP" />
         <module name="spring-start-01" />
         <module name="spring-start-02-hello" />
+        <module name="spring-start-03-IOC" />
+        <module name="SpringMybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +24,7 @@
       <module name="spring-start-04-DI" target="1.7" />
       <module name="spring-start-05-AutWrite" target="1.7" />
       <module name="spring-start-06-AOP" target="1.7" />
+      <module name="SpringMybatis" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

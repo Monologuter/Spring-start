@@ -56,7 +56,7 @@ public class User {
         https://www.springframework.org/schema/beans/spring-beans.xsd">
     <!--使用spring来创建我们的对象 在spring里面的这些都称为bean-->
 
-    <bean id="user"  class="dell.educy.User">
+    <bean id="user"  class="dell.educy.entity.User">
 <!--        第一种使用无参构造去创建-->
 <!--        <property name="name" value="陈亚" />-->
 

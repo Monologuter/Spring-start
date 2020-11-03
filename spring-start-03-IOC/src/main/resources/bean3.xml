@@ -7,7 +7,7 @@
 
 
 
-    <bean id="user"  class="dell.educy.User">
+    <bean id="user"  class="dell.educy.entity.User">
 <!--        第一种使用无参构造去创建-->
 <!--        <property name="name" value="陈亚" />-->
 

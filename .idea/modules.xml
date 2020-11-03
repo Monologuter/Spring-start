@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring-start.iml" filepath="$PROJECT_DIR$/.idea/Spring-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMybatis/SpringMybatis.iml" filepath="$PROJECT_DIR$/SpringMybatis/SpringMybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-start-01/spring-start-01.iml" filepath="$PROJECT_DIR$/spring-start-01/spring-start-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-start-02-hello/spring-start-02-hello.iml" filepath="$PROJECT_DIR$/spring-start-02-hello/spring-start-02-hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-start-03-IOC/spring-start-03-IOC.iml" filepath="$PROJECT_DIR$/spring-start-03-IOC/spring-start-03-IOC.iml" />

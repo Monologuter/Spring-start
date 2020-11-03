@@ -3038,7 +3038,7 @@ exection(* *(..)) ---> 匹配了所有方法    a  b  c
 ~~~xml
 作用：为具有特殊注解的方法加入额外功能
 
-<aop:pointcut id="" expression="@annotation(com.baizhiedu.Log)"/>
+<aop:pointcut id="" expression="@annotation(com.baizhiedu.Log.Log)"/>
 ~~~
 
 5. 切入点函数的逻辑运算
@@ -3277,7 +3277,7 @@ CGlib创建动态代理的原理：父子继承关系创建代理对象，原始
           InvocationHandler handler = new InvocationHandler() {
               @Override
               public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-                  System.out.println("----- new Log-----");
+                  System.out.println("----- new Log.Log-----");
                   Object ret = method.invoke(bean, args);
   
                   return ret;
@@ -3445,7 +3445,7 @@ public class UserServiceImpl implements UserService, ApplicationContextAware {
               this.ctx = applicationContext;
     }
 
-    @Log
+    @Log.Log
     @Override
     public void register(User user) {
         System.out.println("UserServiceImpl.register 业务运算 + DAO ");

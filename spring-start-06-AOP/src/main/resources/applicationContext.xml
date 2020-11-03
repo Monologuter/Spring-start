@@ -45,6 +45,14 @@
 
 -->
 <!--        <aop:pointcut id="pc2" expression="execution(* login( String))"/>-->
+<!--        切入点的逻辑运算  execution 和 args配合运算
+            注意事项：与运算不能是同种类型的切入点函数
+            execution 和  execution 是不可以放在一起进行与运算的
+-->
+<!--            <aop:pointcut id="pc" expression="execution(* login(..)) and args(String,String)"/>-->
+<!--        方法运算or操作-->
+            <aop:pointcut id="pc" expression="execution(* login(..)) and execution(* register(..))"/>
+
 
 <!--        (String , ..)表示第一个参数只要是String类型的就好了 后面的没有要求-->
 <!--        <aop:pointcut id="pc2" expression="execution(* login( String,..))"/>-->
@@ -89,7 +97,7 @@
 
 
 
-        <aop:pointcut id="pc"  expression="@annotation(Log.Log)"/>
+<!--        <aop:pointcut id="pc"  expression="@annotation(Log.Log)"/>-->
 
 
         <aop:advisor advice-ref="arround" pointcut-ref="pc"/>
