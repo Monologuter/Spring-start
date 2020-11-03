@@ -3,4 +3,30 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+<!--    连接池-->
+<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+    <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+    <property name="url" value="jdbc:mysql://localhost:3307/spring?useUnicode=true&amp;characterEncoding=utf8&amp;useSSL=false&amp;serverTimezone=CTT"/>
+    <property name="username" value="root"/>
+    <property name="password" value="123456"/>
+</bean>
+
+
+<!--    创建sqlSessionFactory-->
+    <bean id="sqlSessionFactoryBean" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="typeAliasesPackage" value="educy.entity"/>
+        <property name="mapperLocations">
+            <list>
+                <value>classpath:educy/mapper/*Mapper.xml</value>
+            </list>
+        </property>
+    </bean>
+
+
+<!--    创建Dao对象-->
+    <bean id="scanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactoryBean"/>
+        <property name="basePackage" value="educy.mapper"/>
+    </bean>
 </beans>

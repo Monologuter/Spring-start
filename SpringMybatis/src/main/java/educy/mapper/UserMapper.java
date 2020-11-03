@@ -1,4 +1,4 @@
-package educy.Mapper;
+package educy.mapper;
 
 import educy.entity.User;
 
