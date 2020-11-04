@@ -22,12 +22,18 @@ import org.springframework.transaction.annotation.Transactional;
 
 
 //传播属性
-@Transactional(propagation = Propagation.REQUIRED)
+@Transactional(propagation = Propagation.REQUIRED,timeout = 2)
 public class UserServiceImpl implements UserService {
     private UserMapper userMapper;
 
     @Override
     public void register(User user) {
+
+        try {
+            Thread.currentThread().sleep(2);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         userMapper.save(user);
 //        throw new RuntimeException("测试异常");
     }
