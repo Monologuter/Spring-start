@@ -16,6 +16,7 @@
       <module>spring-start-06-AOP</module>
       <module>spring-start-07-web</module>
       <module>spring-start-08-SpringMybatis</module>
+    <module>spring-start-09-Annotation</module>
   </modules>
   <packaging>pom</packaging>
 

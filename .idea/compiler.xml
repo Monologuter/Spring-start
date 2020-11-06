@@ -15,6 +15,7 @@
         <module name="spring-start-06-AOP" />
         <module name="spring-start-01" />
         <module name="spring-start-02-hello" />
+        <module name="spring-start-09-Annotation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +28,7 @@
       <module name="spring-start-06-AOP" target="1.7" />
       <module name="spring-start-07-web" target="1.8" />
       <module name="spring-start-08-SpringMybatis" target="1.7" />
+      <module name="spring-start-09-Annotation" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
