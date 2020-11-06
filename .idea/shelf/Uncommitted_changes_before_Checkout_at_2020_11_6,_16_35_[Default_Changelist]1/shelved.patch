@@ -1,0 +1,35 @@
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"CompilerConfiguration\">\n    <annotationProcessing>\n      <profile default=\"true\" name=\"Default\" enabled=\"true\" />\n      <profile name=\"Maven default annotation processors profile\" enabled=\"true\">\n        <sourceOutputDir name=\"target/generated-sources/annotations\" />\n        <sourceTestOutputDir name=\"target/generated-test-sources/test-annotations\" />\n        <outputRelativeToContentRoot value=\"true\" />\n        <module name=\"spring-start-04-DI\" />\n        <module name=\"spring-start-07-web\" />\n        <module name=\"spring-start-05-AutWrite\" />\n        <module name=\"spring-start-03-IOC\" />\n        <module name=\"spring-start-06-AOP\" />\n        <module name=\"spring-start-01\" />\n        <module name=\"spring-start-02-hello\" />\n        <module name=\"SpringMybatis\" />\n      </profile>\n    </annotationProcessing>\n    <bytecodeTargetLevel>\n      <module name=\"Spring-start\" target=\"1.7\" />\n      <module name=\"spring-start-01\" target=\"1.7\" />\n      <module name=\"spring-start-02-hello\" target=\"1.7\" />\n      <module name=\"spring-start-03-IOC\" target=\"1.7\" />\n      <module name=\"spring-start-04-DI\" target=\"1.7\" />\n      <module name=\"spring-start-05-AutWrite\" target=\"1.7\" />\n      <module name=\"spring-start-06-AOP\" target=\"1.7\" />\n      <module name=\"spring-start-07-web\" target=\"6\" />\n      <module name=\"SpringMybatis\" target=\"1.7\" />\n    </bytecodeTargetLevel>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/compiler.xml	(revision 5fed872725a86002929d485d0129d9b0d64e3b3c)
++++ .idea/compiler.xml	(date 1604651587010)
+@@ -7,13 +7,13 @@
+         <sourceOutputDir name="target/generated-sources/annotations" />
+         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+         <outputRelativeToContentRoot value="true" />
+-        <module name="spring-start-04-DI" />
+         <module name="spring-start-07-web" />
+         <module name="spring-start-05-AutWrite" />
+-        <module name="spring-start-03-IOC" />
+-        <module name="spring-start-06-AOP" />
+         <module name="spring-start-01" />
++        <module name="spring-start-06-AOP" />
++        <module name="spring-start-04-DI" />
+         <module name="spring-start-02-hello" />
++        <module name="spring-start-03-IOC" />
+         <module name="SpringMybatis" />
+       </profile>
+     </annotationProcessing>
+@@ -25,7 +25,7 @@
+       <module name="spring-start-04-DI" target="1.7" />
+       <module name="spring-start-05-AutWrite" target="1.7" />
+       <module name="spring-start-06-AOP" target="1.7" />
+-      <module name="spring-start-07-web" target="6" />
++      <module name="spring-start-07-web" target="1.8" />
+       <module name="SpringMybatis" target="1.7" />
+     </bytecodeTargetLevel>
+   </component>

@@ -1,0 +1,22 @@
+GET https://www.educy.top/www.educy.top
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-11-01T064534.404.html
+
+###
+
+GET /www.educy.top
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://www.baidu.com
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-11-01T064508.200.html
+
+###
+
