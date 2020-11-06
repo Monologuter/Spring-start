@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-start-04-DI/spring-start-04-DI.iml" filepath="$PROJECT_DIR$/spring-start-04-DI/spring-start-04-DI.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-start-05-AutWrite/spring-start-05-AutWrite.iml" filepath="$PROJECT_DIR$/spring-start-05-AutWrite/spring-start-05-AutWrite.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-start-06-AOP/spring-start-06-AOP.iml" filepath="$PROJECT_DIR$/spring-start-06-AOP/spring-start-06-AOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-start-07-web/spring-start-07-web.iml" filepath="$PROJECT_DIR$/spring-start-07-web/spring-start-07-web.iml" />
     </modules>
   </component>
 </project>

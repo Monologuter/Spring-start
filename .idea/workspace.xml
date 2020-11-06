@@ -20,42 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21b9b8b0-fe5f-4cd6-bd3e-b14fab1ac227" name="Default Changelist" comment="为具有特殊注解的方法加上额外功能">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMybatis/SpringMybatis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMybatis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMybatis/src/main/java/educy/Mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMybatis/src/main/java/educy/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMybatis/src/main/java/educy/util/MybatisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMybatis/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMybatis/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMybatis/src/main/resources/educy/Mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMybatis/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMybatis/src/test/java/SpringMybatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-start-06-AOP/src/main/java/JDK/TestJdkProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Spring-start.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Spring-start.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/log4j.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme_old.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme_old.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-01/spring-start-01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-01/spring-start-01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-02-hello/spring-start-02-hello.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-02-hello/spring-start-02-hello.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-03-IOC/spring-start-03-IOC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-03-IOC/spring-start-03-IOC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-03-IOC/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-03-IOC/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-03-IOC/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-03-IOC/src/main/resources/bean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-03-IOC/src/main/resources/bean2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-03-IOC/src/main/resources/bean2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-03-IOC/src/main/resources/bean3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-03-IOC/src/main/resources/bean3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-04-DI/log/log4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-04-DI/log/log4j.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-04-DI/spring-start-04-DI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-04-DI/spring-start-04-DI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-05-AutWrite/spring-start-05-AutWrite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-05-AutWrite/spring-start-05-AutWrite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-06-AOP/spring-start-06-AOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-06-AOP/spring-start-06-AOP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-06-AOP/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-06-AOP/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-06-AOP/src/test/java/TestProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-06-AOP/src/test/java/TestProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-start-07-web/spring-start-07-web.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +42,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -108,7 +80,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringMybatis/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.2678161" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
@@ -652,7 +624,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604280595543</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="为具有特殊注解的方法加上额外功能">
+      <created>1604651829812</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1604651829812</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -708,12 +687,13 @@
       <screen x="0" y="0" width="1680" height="1004" />
     </state>
     <state x="765" y="136" key="#MyTest_(1)/0.0.1680.1004@0.0.1680.1004" timestamp="1602062187725" />
-    <state x="328" y="99" key="#Project_Structure" timestamp="1603770401412">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state x="328" y="99" key="#Project_Structure" timestamp="1604651821645">
+      <screen x="0" y="0" width="1680" height="1008" />
     </state>
     <state x="328" y="98" key="#Project_Structure/0.0.1680.1002@0.0.1680.1002" timestamp="1602062355400" />
     <state x="328" y="98" key="#Project_Structure/0.0.1680.1003@0.0.1680.1003" timestamp="1602061761834" />
     <state x="328" y="99" key="#Project_Structure/0.0.1680.1005@0.0.1680.1005" timestamp="1603176125155" />
+    <state x="328" y="99" key="#Project_Structure/0.0.1680.1008@0.0.1680.1008" timestamp="1604651821645" />
     <state x="328" y="99" key="#Project_Structure/0.0.1680.1010@0.0.1680.1010" timestamp="1603770401412" />
     <state x="328" y="99" key="#Project_Structure/0.0.1680.1013@0.0.1680.1013" timestamp="1602041152834" />
     <state x="328" y="98" key="#Project_Structure/0.0.1680.999@0.0.1680.999" timestamp="1602070339855" />
@@ -743,7 +723,7 @@
       <screen x="0" y="0" width="1680" height="1000" />
     </state>
     <state x="536" y="122" key="Github.UntrackedFilesDialog/0.0.1680.1000@0.0.1680.1000" timestamp="1602069731177" />
-    <state width="1638" height="281" key="GridCell.Tab.0.bottom" timestamp="1604368989727">
+    <state width="1638" height="344" key="GridCell.Tab.0.bottom" timestamp="1604651775713">
       <screen x="0" y="0" width="1680" height="1008" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.bottom/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084771" />
@@ -753,14 +733,14 @@
     <state width="1638" height="292" key="GridCell.Tab.0.bottom/0.0.1680.1005@0.0.1680.1005" timestamp="1603240852879" />
     <state width="1638" height="293" key="GridCell.Tab.0.bottom/0.0.1680.1006@0.0.1680.1006" timestamp="1603435015327" />
     <state width="1638" height="350" key="GridCell.Tab.0.bottom/0.0.1680.1007@0.0.1680.1007" timestamp="1603850875075" />
-    <state width="1638" height="281" key="GridCell.Tab.0.bottom/0.0.1680.1008@0.0.1680.1008" timestamp="1604368989727" />
+    <state width="1638" height="344" key="GridCell.Tab.0.bottom/0.0.1680.1008@0.0.1680.1008" timestamp="1604651775713" />
     <state width="1638" height="281" key="GridCell.Tab.0.bottom/0.0.1680.1009@0.0.1680.1009" timestamp="1604367424737" />
     <state width="1638" height="349" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1604228806857" />
     <state width="1638" height="304" key="GridCell.Tab.0.bottom/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224355" />
     <state width="1638" height="98" key="GridCell.Tab.0.bottom/0.0.1680.1013@0.0.1680.1013" timestamp="1602041923787" />
     <state width="1638" height="201" key="GridCell.Tab.0.bottom/0.0.1680.998@0.0.1680.998" timestamp="1602126311344" />
     <state width="1638" height="276" key="GridCell.Tab.0.bottom/0.0.1680.999@0.0.1680.999" timestamp="1602127706286" />
-    <state width="1638" height="281" key="GridCell.Tab.0.center" timestamp="1604368989726">
+    <state width="1638" height="344" key="GridCell.Tab.0.center" timestamp="1604651775712">
       <screen x="0" y="0" width="1680" height="1008" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.center/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084770" />
@@ -770,14 +750,14 @@
     <state width="1638" height="292" key="GridCell.Tab.0.center/0.0.1680.1005@0.0.1680.1005" timestamp="1603240852878" />
     <state width="1638" height="293" key="GridCell.Tab.0.center/0.0.1680.1006@0.0.1680.1006" timestamp="1603435015326" />
     <state width="1638" height="350" key="GridCell.Tab.0.center/0.0.1680.1007@0.0.1680.1007" timestamp="1603850875074" />
-    <state width="1638" height="281" key="GridCell.Tab.0.center/0.0.1680.1008@0.0.1680.1008" timestamp="1604368989726" />
+    <state width="1638" height="344" key="GridCell.Tab.0.center/0.0.1680.1008@0.0.1680.1008" timestamp="1604651775712" />
     <state width="1638" height="281" key="GridCell.Tab.0.center/0.0.1680.1009@0.0.1680.1009" timestamp="1604367424737" />
     <state width="1638" height="349" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1604228806857" />
     <state width="1638" height="304" key="GridCell.Tab.0.center/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224353" />
     <state width="1638" height="98" key="GridCell.Tab.0.center/0.0.1680.1013@0.0.1680.1013" timestamp="1602041923786" />
     <state width="1638" height="201" key="GridCell.Tab.0.center/0.0.1680.998@0.0.1680.998" timestamp="1602126311343" />
     <state width="1638" height="276" key="GridCell.Tab.0.center/0.0.1680.999@0.0.1680.999" timestamp="1602127706285" />
-    <state width="1638" height="281" key="GridCell.Tab.0.left" timestamp="1604368989726">
+    <state width="1638" height="344" key="GridCell.Tab.0.left" timestamp="1604651775712">
       <screen x="0" y="0" width="1680" height="1008" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.left/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084769" />
@@ -787,14 +767,14 @@
     <state width="1638" height="292" key="GridCell.Tab.0.left/0.0.1680.1005@0.0.1680.1005" timestamp="1603240852877" />
     <state width="1638" height="293" key="GridCell.Tab.0.left/0.0.1680.1006@0.0.1680.1006" timestamp="1603435015326" />
     <state width="1638" height="350" key="GridCell.Tab.0.left/0.0.1680.1007@0.0.1680.1007" timestamp="1603850875073" />
-    <state width="1638" height="281" key="GridCell.Tab.0.left/0.0.1680.1008@0.0.1680.1008" timestamp="1604368989726" />
+    <state width="1638" height="344" key="GridCell.Tab.0.left/0.0.1680.1008@0.0.1680.1008" timestamp="1604651775712" />
     <state width="1638" height="281" key="GridCell.Tab.0.left/0.0.1680.1009@0.0.1680.1009" timestamp="1604367424736" />
     <state width="1638" height="349" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1604228806855" />
     <state width="1638" height="304" key="GridCell.Tab.0.left/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224353" />
     <state width="1638" height="98" key="GridCell.Tab.0.left/0.0.1680.1013@0.0.1680.1013" timestamp="1602041923785" />
     <state width="1638" height="201" key="GridCell.Tab.0.left/0.0.1680.998@0.0.1680.998" timestamp="1602126311342" />
     <state width="1638" height="276" key="GridCell.Tab.0.left/0.0.1680.999@0.0.1680.999" timestamp="1602127706285" />
-    <state width="1638" height="281" key="GridCell.Tab.0.right" timestamp="1604368989727">
+    <state width="1638" height="344" key="GridCell.Tab.0.right" timestamp="1604651775712">
       <screen x="0" y="0" width="1680" height="1008" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.right/0.0.1680.1000@0.0.1680.1000" timestamp="1602118084770" />
@@ -804,7 +784,7 @@
     <state width="1638" height="292" key="GridCell.Tab.0.right/0.0.1680.1005@0.0.1680.1005" timestamp="1603240852878" />
     <state width="1638" height="293" key="GridCell.Tab.0.right/0.0.1680.1006@0.0.1680.1006" timestamp="1603435015327" />
     <state width="1638" height="350" key="GridCell.Tab.0.right/0.0.1680.1007@0.0.1680.1007" timestamp="1603850875074" />
-    <state width="1638" height="281" key="GridCell.Tab.0.right/0.0.1680.1008@0.0.1680.1008" timestamp="1604368989727" />
+    <state width="1638" height="344" key="GridCell.Tab.0.right/0.0.1680.1008@0.0.1680.1008" timestamp="1604651775712" />
     <state width="1638" height="281" key="GridCell.Tab.0.right/0.0.1680.1009@0.0.1680.1009" timestamp="1604367424737" />
     <state width="1638" height="349" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1604228806857" />
     <state width="1638" height="304" key="GridCell.Tab.0.right/0.0.1680.1012@0.0.1680.1012" timestamp="1602039224355" />
@@ -850,11 +830,11 @@
     <state x="378" y="162" key="Maven.ArtifactSearchDialog/0.0.1680.1005@0.0.1680.1005" timestamp="1603201362588" />
     <state x="378" y="162" key="Maven.ArtifactSearchDialog/0.0.1680.1008@0.0.1680.1008" timestamp="1604285082193" />
     <state x="378" y="161" key="Maven.ArtifactSearchDialog/0.0.1680.999@0.0.1680.999" timestamp="1602069065511" />
-    <state x="455" y="124" width="772" height="759" key="NewModule_or_Project.wizard" timestamp="1603867097728">
+    <state x="455" y="124" width="772" height="759" key="NewModule_or_Project.wizard" timestamp="1604652162694">
       <screen x="0" y="0" width="1680" height="1008" />
     </state>
-    <state x="455" y="124" width="772" height="759" key="NewModule_or_Project.wizard/0.0.1680.1008@0.0.1680.1008" timestamp="1603867097728" />
-    <state x="301" y="87" key="SettingsEditor" timestamp="1604369113378">
+    <state x="455" y="124" width="772" height="759" key="NewModule_or_Project.wizard/0.0.1680.1008@0.0.1680.1008" timestamp="1604652162694" />
+    <state x="301" y="87" key="SettingsEditor" timestamp="1604652171259">
       <screen x="0" y="0" width="1680" height="1008" />
     </state>
     <state x="328" y="98" key="SettingsEditor/0.0.1680.1000@0.0.1680.1000" timestamp="1602069620338" />
@@ -862,7 +842,7 @@
     <state x="301" y="87" key="SettingsEditor/0.0.1680.1005@0.0.1680.1005" timestamp="1603244457207" />
     <state x="301" y="87" key="SettingsEditor/0.0.1680.1006@0.0.1680.1006" timestamp="1603436147956" />
     <state x="301" y="87" key="SettingsEditor/0.0.1680.1007@0.0.1680.1007" timestamp="1604288909656" />
-    <state x="301" y="87" key="SettingsEditor/0.0.1680.1008@0.0.1680.1008" timestamp="1604369113378" />
+    <state x="301" y="87" key="SettingsEditor/0.0.1680.1008@0.0.1680.1008" timestamp="1604652171259" />
     <state x="301" y="87" key="SettingsEditor/0.0.1680.1009@0.0.1680.1009" timestamp="1604367010535" />
     <state x="301" y="87" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1604227469980" />
     <state x="328" y="99" key="SettingsEditor/0.0.1680.1012@0.0.1680.1012" timestamp="1602039026751" />
@@ -875,14 +855,14 @@
     <state width="728" height="457" key="SwitcherDM/0.0.1680.1007@0.0.1680.1007" timestamp="1603421562094" />
     <state width="728" height="476" key="SwitcherDM/0.0.1680.1008@0.0.1680.1008" timestamp="1604280053556" />
     <state width="728" height="477" key="SwitcherDM/0.0.1680.1009@0.0.1680.1009" timestamp="1604201226684" />
-    <state x="440" y="237" key="Vcs.Push.Dialog.v2" timestamp="1604280596786">
+    <state x="440" y="237" key="Vcs.Push.Dialog.v2" timestamp="1604651835985">
       <screen x="0" y="0" width="1680" height="1008" />
     </state>
     <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.0.1680.1004@0.0.1680.1004" timestamp="1603199287694" />
     <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.0.1680.1005@0.0.1680.1005" timestamp="1603202410760" />
     <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1006@0.0.1680.1006" timestamp="1603434907437" />
     <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1007@0.0.1680.1007" timestamp="1603850982832" />
-    <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1008@0.0.1680.1008" timestamp="1604280596786" />
+    <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1008@0.0.1680.1008" timestamp="1604651835985" />
     <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1009@0.0.1680.1009" timestamp="1604201258044" />
     <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1603768383301" />
     <state x="440" y="235" key="Vcs.Push.Dialog.v2/0.0.1680.998@0.0.1680.998" timestamp="1602127954198" />
@@ -908,14 +888,14 @@
       <screen x="0" y="0" width="1680" height="1006" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.0.1680.1006@0.0.1680.1006" timestamp="1603419305388" />
-    <state x="260" y="71" key="new project wizard" timestamp="1604367047031">
-      <screen x="0" y="0" width="1680" height="1009" />
+    <state x="260" y="71" key="new project wizard" timestamp="1604652135633">
+      <screen x="0" y="0" width="1680" height="1008" />
     </state>
     <state x="416" y="113" key="new project wizard/0.0.1680.1002@0.0.1680.1002" timestamp="1602138935616" />
     <state x="260" y="71" key="new project wizard/0.0.1680.1003@0.0.1680.1003" timestamp="1602140257684" />
     <state x="416" y="157" key="new project wizard/0.0.1680.1004@0.0.1680.1004" timestamp="1602062121725" />
     <state x="260" y="71" key="new project wizard/0.0.1680.1005@0.0.1680.1005" timestamp="1603201108285" />
-    <state x="260" y="71" key="new project wizard/0.0.1680.1008@0.0.1680.1008" timestamp="1603345571312" />
+    <state x="260" y="71" key="new project wizard/0.0.1680.1008@0.0.1680.1008" timestamp="1604652135633" />
     <state x="260" y="71" key="new project wizard/0.0.1680.1009@0.0.1680.1009" timestamp="1604367047031" />
     <state x="260" y="71" key="new project wizard/0.0.1680.1010@0.0.1680.1010" timestamp="1603764933888" />
     <state x="208" y="94" key="new project wizard/0.0.1680.1013@0.0.1680.1013" timestamp="1602040376401" />
