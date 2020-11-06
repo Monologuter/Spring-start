@@ -244,6 +244,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.SpringTest.test19" />
+      <item itemvalue="JUnit.TestProxy" />
+      <item itemvalue="JUnit.TestProxy.test2" />
+      <item itemvalue="JUnit.SpringMybatisTest.test" />
+      <item itemvalue="JUnit.TestProxy.test1" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SpringMybatisTest.test" />
