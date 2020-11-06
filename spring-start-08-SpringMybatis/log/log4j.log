@@ -1,0 +1,33 @@
+2020-11-03 10:19:18,380 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-11-06 17:03:30,129 1      [           main] DEBUG ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@11531931
+2020-11-06 17:03:30,313 185    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 10 bean definitions from class path resource [applicationContext.xml]
+2020-11-06 17:03:30,363 235    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'scanner'
+2020-11-06 17:03:30,423 295    [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-11-06 17:03:30,469 341    [           main] DEBUG .mapper.ClassPathMapperScanner  - Identified candidate component class: file [/Users/mac/IdeaProjects/Spring-start/spring-start-08-SpringMybatis/target/classes/educy/mapper/UserMapper.class]
+2020-11-06 17:03:30,480 352    [           main] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'userMapper' and 'educy.mapper.UserMapper' mapperInterface
+2020-11-06 17:03:30,495 367    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2020-11-06 17:03:30,556 428    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2020-11-06 17:03:30,557 429    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2020-11-06 17:03:30,558 430    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2020-11-06 17:03:30,560 432    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2020-11-06 17:03:30,561 433    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2020-11-06 17:03:30,568 440    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2020-11-06 17:03:30,602 474    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'dataSource'
+2020-11-06 17:03:30,689 561    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2020-11-06 17:03:30,691 563    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2020-11-06 17:03:30,736 608    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'sqlSessionFactoryBean'
+2020-11-06 17:03:30,754 626    [           main] DEBUG s.spring.SqlSessionFactoryBean  - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2020-11-06 17:03:30,955 827    [           main] DEBUG s.spring.SqlSessionFactoryBean  - Parsed mapper file: 'file [/Users/mac/IdeaProjects/Spring-start/spring-start-08-SpringMybatis/target/classes/educy/mapper/UserMapper.xml]'
+2020-11-06 17:03:30,960 832    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'userService'
+2020-11-06 17:03:30,964 836    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'userMapper'
+2020-11-06 17:03:31,013 885    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'dataSourceTransactionManager'
+2020-11-06 17:03:31,025 897    [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2020-11-06 17:03:31,070 942    [           main] DEBUG mybatis.spring.SqlSessionUtils  - Creating a new SqlSession
+2020-11-06 17:03:31,076 948    [           main] DEBUG mybatis.spring.SqlSessionUtils  - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5032714f] was not registered for synchronization because synchronization is not active
+2020-11-06 17:03:31,084 956    [           main] DEBUG dbc.datasource.DataSourceUtils  - Fetching JDBC Connection from DataSource
+2020-11-06 17:03:31,237 1109   [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2020-11-06 17:03:31,512 1384   [           main] DEBUG ction.SpringManagedTransaction  - JDBC Connection [com.mysql.jdbc.JDBC4Connection@465232e9] will not be managed by Spring
+2020-11-06 17:03:31,519 1391   [           main] DEBUG   educy.mapper.UserMapper.save  - ==>  Preparing: insert into t_users (name, password) values (? , ?)
+2020-11-06 17:03:31,544 1416   [           main] DEBUG   educy.mapper.UserMapper.save  - ==> Parameters: 马静娴(String), 99999(String)
+2020-11-06 17:03:31,560 1432   [           main] DEBUG   educy.mapper.UserMapper.save  - <==    Updates: 1
+2020-11-06 17:03:31,560 1432   [           main] DEBUG mybatis.spring.SqlSessionUtils  - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5032714f]

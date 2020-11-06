@@ -15,7 +15,7 @@
       <module>spring-start-05-AutWrite</module>
       <module>spring-start-06-AOP</module>
       <module>spring-start-07-web</module>
-      <module>SpringMybatis</module>
+      <module>spring-start-08-SpringMybatis</module>
   </modules>
   <packaging>pom</packaging>
 

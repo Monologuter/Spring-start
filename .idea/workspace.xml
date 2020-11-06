@@ -19,10 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21b9b8b0-fe5f-4cd6-bd3e-b14fab1ac227" name="Default Changelist" comment="为具有特殊注解的方法加上额外功能">
+    <list default="true" id="21b9b8b0-fe5f-4cd6-bd3e-b14fab1ac227" name="Default Changelist" comment="配置文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-07-web/spring-start-07-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMybatis/SpringMybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-08-SpringMybatis/spring-start-08-SpringMybatis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMybatis/log/log4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-08-SpringMybatis/log/log4j.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-08-SpringMybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMybatis/src/main/java/educy/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-08-SpringMybatis/src/main/java/educy/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMybatis/src/main/java/educy/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-08-SpringMybatis/src/main/java/educy/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMybatis/src/main/java/educy/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-08-SpringMybatis/src/main/java/educy/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMybatis/src/main/java/educy/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-08-SpringMybatis/src/main/java/educy/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMybatis/src/main/java/educy/util/MybatisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-08-SpringMybatis/src/main/java/educy/util/MybatisUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMybatis/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-08-SpringMybatis/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMybatis/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-08-SpringMybatis/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMybatis/src/main/resources/educy/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-08-SpringMybatis/src/main/resources/educy/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMybatis/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-08-SpringMybatis/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMybatis/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-08-SpringMybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMybatis/src/test/java/SpringMybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-08-SpringMybatis/src/test/java/SpringMybatisTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,8 +173,17 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.SpringMybatisTest.test">
+    <configuration name="SpringMybatisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-start-08-SpringMybatis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpringMybatisTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringMybatisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringMybatis" />
+      <module name="spring-start-08-SpringMybatis" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SpringMybatisTest" />
       <option name="METHOD_NAME" value="test" />
@@ -171,27 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringTest.test19" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-start-04-DI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dell.educy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dell.educy" />
-      <option name="MAIN_CLASS_NAME" value="dell.educy.SpringTest" />
-      <option name="METHOD_NAME" value="test19" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestProxy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-start-06-AOP" />
+    <configuration name="SpringMybatisTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-start-08-SpringMybatis" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestProxy" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="SpringMybatisTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -217,19 +223,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SpringTest.test19" />
-      <item itemvalue="JUnit.TestProxy" />
       <item itemvalue="JUnit.TestProxy.test2" />
       <item itemvalue="JUnit.SpringMybatisTest.test" />
       <item itemvalue="JUnit.TestProxy.test1" />
+      <item itemvalue="JUnit.SpringMybatisTest" />
+      <item itemvalue="JUnit.SpringMybatisTest.test2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SpringMybatisTest.test" />
+        <item itemvalue="JUnit.SpringMybatisTest.test2" />
+        <item itemvalue="JUnit.SpringMybatisTest" />
         <item itemvalue="JUnit.TestProxy.test2" />
         <item itemvalue="JUnit.TestProxy.test1" />
-        <item itemvalue="JUnit.TestProxy" />
-        <item itemvalue="JUnit.SpringTest.test19" />
       </list>
     </recent_temporary>
   </component>
@@ -294,13 +300,6 @@
       <workItem from="1604197508059" duration="1250000" />
       <workItem from="1604279739722" duration="2647000" />
       <workItem from="1604288810818" duration="4672000" />
-    </task>
-    <task id="LOCAL-00001" summary="readme.md">
-      <created>1602069836244</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1602069836244</updated>
     </task>
     <task id="LOCAL-00002" summary="spring创建IOC的四种方式">
       <created>1602079518834</created>
@@ -631,7 +630,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604651829812</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="配置文件">
+      <created>1604652279911</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1604652279911</updated>
+    </task>
+    <task id="LOCAL-00050" summary="配置文件">
+      <created>1604652309389</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1604652309390</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -651,7 +664,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="bean的初始化第一种方式实现InitializingBean接口" />
     <MESSAGE value="bean初始化的第二种方式写一个普通的方法然后在配置文件中加上init-method属性并将其设置为这个普通方法即可" />
     <MESSAGE value="注意事项：1、如果两种方式都含有的话 两个方法都会执行 但是先会执行实现InitializingBean接口的方法 再执行普通的方法 2、注入一定发生在初始化前面 3、什么叫做初始化操作？主要是对于资源初始化IO sql比较耗时间耗资源之类的的等等。" />
     <MESSAGE value="对象生命周期销毁阶段可以实现spring的DisposableBean接口也可以自定义方法" />
@@ -676,7 +688,8 @@
     <MESSAGE value="args切入点函数" />
     <MESSAGE value="within切入点函数" />
     <MESSAGE value="为具有特殊注解的方法加上额外功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="为具有特殊注解的方法加上额外功能" />
+    <MESSAGE value="配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="189" key="#Inspections" timestamp="1603697801955">
@@ -687,13 +700,13 @@
       <screen x="0" y="0" width="1680" height="1004" />
     </state>
     <state x="765" y="136" key="#MyTest_(1)/0.0.1680.1004@0.0.1680.1004" timestamp="1602062187725" />
-    <state x="328" y="99" key="#Project_Structure" timestamp="1604651821645">
+    <state x="328" y="99" key="#Project_Structure" timestamp="1604652224882">
       <screen x="0" y="0" width="1680" height="1008" />
     </state>
     <state x="328" y="98" key="#Project_Structure/0.0.1680.1002@0.0.1680.1002" timestamp="1602062355400" />
     <state x="328" y="98" key="#Project_Structure/0.0.1680.1003@0.0.1680.1003" timestamp="1602061761834" />
     <state x="328" y="99" key="#Project_Structure/0.0.1680.1005@0.0.1680.1005" timestamp="1603176125155" />
-    <state x="328" y="99" key="#Project_Structure/0.0.1680.1008@0.0.1680.1008" timestamp="1604651821645" />
+    <state x="328" y="99" key="#Project_Structure/0.0.1680.1008@0.0.1680.1008" timestamp="1604652224882" />
     <state x="328" y="99" key="#Project_Structure/0.0.1680.1010@0.0.1680.1010" timestamp="1603770401412" />
     <state x="328" y="99" key="#Project_Structure/0.0.1680.1013@0.0.1680.1013" timestamp="1602041152834" />
     <state x="328" y="98" key="#Project_Structure/0.0.1680.999@0.0.1680.999" timestamp="1602070339855" />
@@ -823,12 +836,12 @@
     <state width="1638" height="610" key="GridCell.Tab.1.right/0.0.1680.1006@0.0.1680.1006" timestamp="1603434698042" />
     <state width="1638" height="576" key="GridCell.Tab.1.right/0.0.1680.1008@0.0.1680.1008" timestamp="1603802871155" />
     <state width="1638" height="611" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1603769502187" />
-    <state x="378" y="162" key="Maven.ArtifactSearchDialog" timestamp="1604285082193">
+    <state x="378" y="162" key="Maven.ArtifactSearchDialog" timestamp="1604652183287">
       <screen x="0" y="0" width="1680" height="1008" />
     </state>
     <state x="378" y="161" key="Maven.ArtifactSearchDialog/0.0.1680.1000@0.0.1680.1000" timestamp="1602069541647" />
     <state x="378" y="162" key="Maven.ArtifactSearchDialog/0.0.1680.1005@0.0.1680.1005" timestamp="1603201362588" />
-    <state x="378" y="162" key="Maven.ArtifactSearchDialog/0.0.1680.1008@0.0.1680.1008" timestamp="1604285082193" />
+    <state x="378" y="162" key="Maven.ArtifactSearchDialog/0.0.1680.1008@0.0.1680.1008" timestamp="1604652183287" />
     <state x="378" y="161" key="Maven.ArtifactSearchDialog/0.0.1680.999@0.0.1680.999" timestamp="1602069065511" />
     <state x="455" y="124" width="772" height="759" key="NewModule_or_Project.wizard" timestamp="1604652162694">
       <screen x="0" y="0" width="1680" height="1008" />
@@ -855,14 +868,14 @@
     <state width="728" height="457" key="SwitcherDM/0.0.1680.1007@0.0.1680.1007" timestamp="1603421562094" />
     <state width="728" height="476" key="SwitcherDM/0.0.1680.1008@0.0.1680.1008" timestamp="1604280053556" />
     <state width="728" height="477" key="SwitcherDM/0.0.1680.1009@0.0.1680.1009" timestamp="1604201226684" />
-    <state x="440" y="237" key="Vcs.Push.Dialog.v2" timestamp="1604651835985">
+    <state x="440" y="237" key="Vcs.Push.Dialog.v2" timestamp="1604652314854">
       <screen x="0" y="0" width="1680" height="1008" />
     </state>
     <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.0.1680.1004@0.0.1680.1004" timestamp="1603199287694" />
     <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.0.1680.1005@0.0.1680.1005" timestamp="1603202410760" />
     <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1006@0.0.1680.1006" timestamp="1603434907437" />
     <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1007@0.0.1680.1007" timestamp="1603850982832" />
-    <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1008@0.0.1680.1008" timestamp="1604651835985" />
+    <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1008@0.0.1680.1008" timestamp="1604652314854" />
     <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1009@0.0.1680.1009" timestamp="1604201258044" />
     <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1603768383301" />
     <state x="440" y="235" key="Vcs.Push.Dialog.v2/0.0.1680.998@0.0.1680.998" timestamp="1602127954198" />

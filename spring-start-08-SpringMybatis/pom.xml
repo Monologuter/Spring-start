@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>SpringMybatis</artifactId>
+    <artifactId>spring-start-08-SpringMybatis</artifactId>
     <dependencies>
         <dependency>
             <groupId>org.mybatis</groupId>

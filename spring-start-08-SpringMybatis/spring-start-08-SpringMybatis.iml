@@ -10,13 +10,14 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
-    <output url="file://$MODULE_DIR$/target/classes" />
-    <output-test url="file://$MODULE_DIR$/target/test-classes" />
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+    <output url="file://$MODULE_DIR$/../spring-start-08-SpringMybatis/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../spring-start-08-SpringMybatis/target/test-classes" />
+    <content url="file://$MODULE_DIR$/../spring-start-08-SpringMybatis">
+      <sourceFolder url="file://$MODULE_DIR$/../spring-start-08-SpringMybatis/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../spring-start-08-SpringMybatis/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../spring-start-08-SpringMybatis/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
+      <excludeFolder url="file://$MODULE_DIR$/../spring-start-08-SpringMybatis/target" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
