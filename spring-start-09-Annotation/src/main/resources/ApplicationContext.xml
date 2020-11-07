@@ -11,7 +11,7 @@ http://www.springframework.org/schema/context/spring-context-4.2.xsd">
 
 
     <context:component-scan  base-package="com.educy"/>
-    <bean id = "u" class="com.educy.User">
+    <bean id = "u" class="com.educy.entity.User">
         <property name="id" value="10"/>
     </bean>
 

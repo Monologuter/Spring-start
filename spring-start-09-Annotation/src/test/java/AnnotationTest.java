@@ -1,6 +1,6 @@
-import com.educy.User;
+import com.educy.entity.User;
+import com.educy.scope.Customer;
 import org.junit.Test;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 /**
  * @Author 马小姐
@@ -18,7 +18,18 @@ public class AnnotationTest {
         User user = (User) classPathXmlApplicationContext.getBean("u");
 
         System.out.println("userid = " + user.getId());
+    }
 
+    /**
+     * 测试内容:测试scope注解
+     */
+    @Test
+    public void test2() {
+        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("ApplicationContext.xml");
+        Customer customer = (Customer) classPathXmlApplicationContext.getBean("customer");
+        Customer customer1 = (Customer) classPathXmlApplicationContext.getBean("customer");
+        System.out.println("customer = " + customer);
+        System.out.println("customer1 = " + customer1);
 
     }
 }

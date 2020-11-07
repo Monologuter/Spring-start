@@ -1,4 +1,4 @@
-package com.educy;
+package com.educy.entity;
 
 import lombok.Data;
 import org.springframework.stereotype.Component;
@@ -13,6 +13,7 @@ import java.io.Serializable;
  * @Date 2020-11-06 17:35
  * @Version 1.0
  * @Description:
+ *
  */
 
 
