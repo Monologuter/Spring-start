@@ -1,4 +1,5 @@
 import com.educy.entity.User;
+import com.educy.lazy.Account;
 import com.educy.scope.Customer;
 import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -30,6 +31,17 @@ public class AnnotationTest {
         Customer customer1 = (Customer) classPathXmlApplicationContext.getBean("customer");
         System.out.println("customer = " + customer);
         System.out.println("customer1 = " + customer1);
+
+    }
+
+
+    /**
+     * 测试内容:测试lazy注解  一旦使用了lazy注解之后  就不会在getben的时候创建对象了  等到需要使用到的时候再创建对象
+     */
+    @Test
+    public void test3() {
+        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("ApplicationContext.xml");
+        Account account = (Account) classPathXmlApplicationContext.getBean("account");
 
     }
 }
