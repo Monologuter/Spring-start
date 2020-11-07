@@ -44,4 +44,16 @@ public class AnnotationTest {
         Account account = (Account) classPathXmlApplicationContext.getBean("account");
 
     }
+
+
+    /**
+     * 测试内容:测试生命周期相关的注解
+     * 注意事项  上述关于生命周期的两个注解不是spring提供的 而是JSR(JavaEE)520提供的
+     */
+    @Test
+    public void test4() {
+        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("ApplicationContext.xml");
+
+        classPathXmlApplicationContext.close();
+    }
 }
