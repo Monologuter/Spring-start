@@ -13,7 +13,7 @@ import java.io.Serializable;
  */
 
 
-@Component
+@Component("u")
 @Data
 public class User implements Serializable {
     private Integer id;
