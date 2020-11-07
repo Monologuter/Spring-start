@@ -1,3 +1,4 @@
+import com.educy.Mapper.UserServiceMapper;
 import com.educy.entity.User;
 import com.educy.lazy.Account;
 import com.educy.scope.Customer;
@@ -55,5 +56,17 @@ public class AnnotationTest {
         ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("ApplicationContext.xml");
 
         classPathXmlApplicationContext.close();
+    }
+
+    /**
+     * 测试内容:测试Autowired注解
+     */
+    @Test
+    public void test5() {
+        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("ApplicationContext.xml");
+        UserServiceMapper userServiceMapperImpl = (UserServiceMapper) classPathXmlApplicationContext.getBean("userServiceMapperImpl");
+        userServiceMapperImpl.register();
+        classPathXmlApplicationContext.close();
+
     }
 }
