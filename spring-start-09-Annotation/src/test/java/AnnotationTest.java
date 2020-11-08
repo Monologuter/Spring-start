@@ -1,3 +1,4 @@
+import com.educy.Mapper.Category;
 import com.educy.Mapper.UserServiceMapper;
 import com.educy.entity.User;
 import com.educy.lazy.Account;
@@ -77,6 +78,19 @@ public class AnnotationTest {
         UserServiceMapper userServiceMapperImpl = (UserServiceMapper) classPathXmlApplicationContext.getBean("userServiceMapperImpl");
         userServiceMapperImpl.register();
         classPathXmlApplicationContext.close();
+
+    }
+
+
+    /**
+     * 测试内容:测试@Value注解
+     */
+    @Test
+    public void test6() {
+        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("ApplicationContext.xml");
+        Category category = (Category) classPathXmlApplicationContext.getBean("category");
+
+        System.out.println("name:"+category.getName() + "            id:"+category.getId());
 
     }
 }
