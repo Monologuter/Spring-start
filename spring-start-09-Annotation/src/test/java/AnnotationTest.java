@@ -84,6 +84,11 @@ public class AnnotationTest {
 
     /**
      * 测试内容:测试@Value注解
+     * jdk成员变量的赋值使用的是value注解
+     * 开发步骤：
+     *  第一步：设置一个****,properties配置文件  设置相应的键值对
+     *  第二步：spring读取这个配置文件   <context:property-placeholder  location="init.properties"/>
+     *  第三步：在需要注入的成员变量上添加value注解 并使用$符号完成值的注入
      */
     @Test
     public void test6() {
