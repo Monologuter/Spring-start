@@ -2,6 +2,7 @@ package com.educy.Mapper;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 /**
@@ -12,6 +13,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class UserServiceMapperImpl implements UserServiceMapper {
+    @Autowired
     private  UserMapper userMapper;
 
     public UserMapper getUserMapper() {
@@ -22,8 +24,9 @@ public class UserServiceMapperImpl implements UserServiceMapper {
         this.userMapper = userMapper;
     }
 
-
-    @Autowired
+//
+//    @Autowired
+//    @Qualifier("userMapperImpl")
     public void setUserMapper(UserMapper userMapper) {
         this.userMapper = userMapper;
     }
