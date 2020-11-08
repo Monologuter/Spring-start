@@ -5,6 +5,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
+
 /**
  * @Author 马小姐
  * @Date 2020-11-07 09:47
@@ -13,7 +15,8 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class UserServiceMapperImpl implements UserServiceMapper {
-    @Autowired
+//    @Autowired
+    @Resource(name = "userMapperImpl")
     private  UserMapper userMapper;
 
     public UserMapper getUserMapper() {

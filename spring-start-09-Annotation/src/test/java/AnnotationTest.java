@@ -65,6 +65,10 @@ public class AnnotationTest {
      * 也可以将Autowired注解放置在成员变量上面  有的时候使用lombox插件的时候就这样使用
      * 但是实现的方式是通过反射实现的 并没有调用set方法进行注入 通过反射可以为一个类的成员变量的私有属性进行赋值
      * 最终的效果是一样的更加推荐的使用方式是第二种方式 因为代码简洁
+     * 还可以使用Resource注解进行名字注入 @Resource(name = "userMapperImpl")  但是name值要和成员变量的id值保持一致
+     * 也可以不添加name属性  直接@Resource  通过类型进行注入
+     * 如果在应用@Resource注解的时候  名字没有配对成功  他会继续基于类型进行配对
+     * 还有 @Inject注解 和 @Autowired注解是完全一致的都是基于类型来注入的
      *
      */
     @Test
