@@ -60,6 +60,8 @@ public class AnnotationTest {
 
     /**
      * 测试内容:测试Autowired注解
+     * 注意事项：Autowirea的注解是基于类型来注入的
+     * 注入的类型必须是目标成员变量相同的类型或者是子类乃至实现类
      */
     @Test
     public void test5() {
