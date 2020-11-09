@@ -89,6 +89,11 @@ public class AnnotationTest {
      *  第一步：设置一个****,properties配置文件  设置相应的键值对
      *  第二步：spring读取这个配置文件   <context:property-placeholder  location="init.properties"/>
      *  第三步：在需要注入的成员变量上添加value注解 并使用$符号完成值的注入
+     *
+     *  注意细节：
+     *  第一：value注解不能作用在静态变量上，如果使用赋值就会失败  不会进行注入
+     *  第二：value+properties这种方式 不能注入集合类型  就会使用新的形式的配置文件   YAML配置
+     *
      */
     @Test
     public void test6() {
