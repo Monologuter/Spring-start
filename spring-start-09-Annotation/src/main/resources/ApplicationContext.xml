@@ -10,8 +10,24 @@ http://www.springframework.org/schema/context
 http://www.springframework.org/schema/context/spring-context-4.2.xsd">
 
 
-    <context:component-scan  base-package="com.educy"/>
-    <bean id = "u" class="com.educy.entity.User">
+
+<!--    扫描的是当前包以及子包 但是相对比较复杂   排除策略需要掌握前面三种  排除策略可以叠加使用
+        type:assignable:排除特定的类型 不进行扫描
+            annotation:排除特定的注解 不进行扫描
+            aspectj:切入点表达式
+                包切入点： com.baizhiedu.bean..*
+                类切入点： *..User
+            regex:正则表达式
+            custom：自定义排除策略框架底层开发
+
+-->
+    <context:component-scan  base-package="com.educy">
+        <context:exclude-filter type="assignable" expression="com.educy.entity.User"/>
+<!--        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Service"/>-->
+<!--        <context:exclude-filter type="aspectj" expression="com.educy.Mapper..*"/>-->
+<!--        <context:exclude-filter type="custom" expression=""/>-->
+    </context:component-scan>
+    <bean id = "user" class="com.educy.entity.User">
         <property name="id" value="10"/>
     </bean>
 

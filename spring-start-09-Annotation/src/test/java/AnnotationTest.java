@@ -103,4 +103,17 @@ public class AnnotationTest {
         System.out.println("name:"+category.getName() + "            id:"+category.getId());
 
     }
+
+
+    /**
+     * 测试内容:排除策略
+     */
+    @Test
+    public void test7() {
+        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("ApplicationContext.xml");
+        String[] beanDefinitionNames = classPathXmlApplicationContext.getBeanDefinitionNames();
+        for (String beanName : beanDefinitionNames){
+            System.out.println("beanName = " + beanName);
+        }
+    }
 }
