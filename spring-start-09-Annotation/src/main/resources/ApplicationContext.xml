@@ -21,15 +21,24 @@ http://www.springframework.org/schema/context/spring-context-4.2.xsd">
             custom：自定义排除策略框架底层开发
 
 -->
-    <context:component-scan  base-package="com.educy">
-        <context:exclude-filter type="assignable" expression="com.educy.entity.User"/>
-<!--        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Service"/>-->
-<!--        <context:exclude-filter type="aspectj" expression="com.educy.Mapper..*"/>-->
-<!--        <context:exclude-filter type="custom" expression=""/>-->
-    </context:component-scan>
-    <bean id = "user" class="com.educy.entity.User">
-        <property name="id" value="10"/>
-    </bean>
+<!--    <context:component-scan  base-package="com.educy">-->
+<!--        <context:exclude-filter type="assignable" expression="com.educy.entity.User"/>-->
+<!--&lt;!&ndash;        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Service"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <context:exclude-filter type="aspectj" expression="com.educy.Mapper..*"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <context:exclude-filter type="custom" expression=""/>&ndash;&gt;-->
+<!--    </context:component-scan>-->
+
+
+
+<!--    包含方式-->
+   <context:component-scan base-package="com.educy" use-default-filters="false">
+<!--       false表示让spring默认的扫描注解失效  使用我们自己的方式-->
+       <context:include-filter type="annotation" expression="org.springframework.stereotype.Repository"/>
+   </context:component-scan>
+
+<!--    <bean id = "user" class="com.educy.entity.User">-->
+<!--        <property name="id" value="10"/>-->
+<!--    </bean>-->
 
 
     <context:property-placeholder  location="init.properties"/>
