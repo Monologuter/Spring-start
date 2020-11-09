@@ -1,11 +1,13 @@
 package com.educy;
 
+import com.educy.Mapper.UserDao;
+import com.educy.Mapper.UserDaoImpl;
+import com.educy.Mapper.UserService;
+import com.educy.Mapper.UserServiceImpl;
 import com.educy.bean.ConnectionFactoryBean;
 import com.educy.bean.User;
-import com.sun.tools.classfile.ConstantPool;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Component;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -62,4 +64,17 @@ public class AppConfig {
         return  connection;
     }
 
+
+    @Bean
+    public UserDao userDao(){
+        return new UserDaoImpl();
+    }
+
+
+    @Bean
+    public UserService userService(UserDao userDao){
+        UserServiceImpl userService  = new UserServiceImpl();
+        userService.setUserMapper(userDao);
+        return userService;
+    }
 }

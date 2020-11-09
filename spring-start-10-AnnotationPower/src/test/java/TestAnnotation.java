@@ -1,7 +1,7 @@
 import com.educy.AppConfig;
+import com.educy.Mapper.UserService;
 import com.educy.bean.User;
 import org.junit.Test;
-import org.omg.PortableInterceptor.USER_EXCEPTION;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -47,4 +47,15 @@ public class TestAnnotation {
         System.out.println("conn1 = " + conn1);
 
     }
+
+    /**
+     * 测试内容:测试@Bean注解的注入
+     */
+    @Test
+    public void test4() {
+        ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class);
+        UserService userService = (UserService) ctx.getBean("userService");
+        userService.register();
+    }
+
 }
