@@ -1,6 +1,8 @@
 package com.educy;
 
+import com.educy.bean.ConnectionFactoryBean;
 import com.educy.bean.User;
+import com.sun.tools.classfile.ConstantPool;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
@@ -44,6 +46,20 @@ public class AppConfig {
         }
 
         return conn;
+    }
+
+
+
+    @Bean
+    public Connection conn1()  {
+        Connection connection = null;
+        try {
+            ConnectionFactoryBean connectionFactoryBean = new ConnectionFactoryBean();
+            connection = connectionFactoryBean.getObject();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return  connection;
     }
 
 }

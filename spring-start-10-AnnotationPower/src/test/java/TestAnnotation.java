@@ -41,7 +41,10 @@ public class TestAnnotation {
     @Test
     public void test3() {
         ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class);
-        Connection conn = (Connection) ctx.getBean("conn");
-        System.out.println("conn = " + conn);
+//        Connection conn = (Connection) ctx.getBean("conn");
+//        System.out.println("conn = " + conn);
+        Connection conn1 = (Connection) ctx.getBean("conn1");
+        System.out.println("conn1 = " + conn1);
+
     }
 }
