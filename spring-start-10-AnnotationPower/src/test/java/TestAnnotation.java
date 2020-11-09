@@ -1,5 +1,6 @@
 import com.educy.AppConfig;
 import com.educy.Mapper.UserService;
+import com.educy.bean.Customer;
 import com.educy.bean.User;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
@@ -56,6 +57,20 @@ public class TestAnnotation {
         ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class);
         UserService userService = (UserService) ctx.getBean("userService");
         userService.register();
+    }
+
+
+    /**
+     * 测试内容:测试@Bean  jdk类型的注入
+     */
+    @Test
+    public void test5() {
+        ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class);
+        Customer customer = (Customer) ctx.getBean("customer");
+        System.out.println("id = " + customer.getId());
+        System.out.println("名字 = " + customer.getName());
+
+
     }
 
 }

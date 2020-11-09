@@ -5,13 +5,18 @@ import com.educy.Mapper.UserDaoImpl;
 import com.educy.Mapper.UserService;
 import com.educy.Mapper.UserServiceImpl;
 import com.educy.bean.ConnectionFactoryBean;
+import com.educy.bean.Customer;
 import com.educy.bean.User;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 
+import java.security.PrivateKey;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+
 
 /**
  * @Author 马小姐
@@ -22,7 +27,12 @@ import java.sql.SQLException;
 
 
 @Configuration
+@PropertySource("classpath:/init.properties")
 public class AppConfig {
+    @Value("${id}")
+    private  Integer id;
+    @Value("${name}")
+    private  String name;
 
 
     /*
@@ -76,5 +86,15 @@ public class AppConfig {
         UserServiceImpl userService  = new UserServiceImpl();
         userService.setUserMapper(userDao);
         return userService;
+    }
+
+
+
+    @Bean
+    public Customer customer() {
+        Customer customer = new Customer();
+        customer.setId(id);
+        customer.setName(name);
+        return  customer;
     }
 }
