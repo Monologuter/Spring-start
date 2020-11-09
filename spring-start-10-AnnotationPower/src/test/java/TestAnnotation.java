@@ -1,4 +1,5 @@
 import com.educy.AppConfig;
+import com.educy.AppConfig1;
 import com.educy.Mapper.UserService;
 import com.educy.bean.Customer;
 import com.educy.bean.User;
@@ -69,8 +70,21 @@ public class TestAnnotation {
         Customer customer = (Customer) ctx.getBean("customer");
         System.out.println("id = " + customer.getId());
         System.out.println("名字 = " + customer.getName());
+    }
 
 
+    /**
+     * 测试内容:测试@ComponentScan(basePackages = "com.educy.scan")注解
+     *
+     *
+     */
+    @Test
+    public void test6() {
+        ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig1.class);
+        String[] beanDefinitionNames = ctx.getBeanDefinitionNames();
+        for (String beanName : beanDefinitionNames) {
+            System.out.println("beanName = " + beanName);
+        }
     }
 
 }

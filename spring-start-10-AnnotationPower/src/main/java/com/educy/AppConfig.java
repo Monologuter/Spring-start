@@ -9,6 +9,7 @@ import com.educy.bean.Customer;
 import com.educy.bean.User;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
@@ -28,6 +29,7 @@ import java.sql.SQLException;
 
 @Configuration
 @PropertySource("classpath:/init.properties")
+@ComponentScan(basePackages = "com.educy.scan")
 public class AppConfig {
     @Value("${id}")
     private  Integer id;
@@ -97,4 +99,6 @@ public class AppConfig {
         customer.setName(name);
         return  customer;
     }
+
+
 }
