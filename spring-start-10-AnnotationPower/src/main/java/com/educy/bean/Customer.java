@@ -1,6 +1,7 @@
 package com.educy.bean;
 
 import lombok.Data;
+import org.springframework.stereotype.Component;
 
 import java.io.Serializable;
 
@@ -12,6 +13,7 @@ import java.io.Serializable;
  */
 
 @Data
+@Component
 public class Customer implements Serializable {
     private  Integer id;
     private  String name;

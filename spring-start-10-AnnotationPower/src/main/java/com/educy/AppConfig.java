@@ -7,11 +7,10 @@ import com.educy.Mapper.UserServiceImpl;
 import com.educy.bean.ConnectionFactoryBean;
 import com.educy.bean.Customer;
 import com.educy.bean.User;
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.PropertySource;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.*;
 
 import java.security.PrivateKey;
 import java.sql.Connection;

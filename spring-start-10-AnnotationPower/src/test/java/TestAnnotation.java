@@ -1,11 +1,14 @@
 import com.educy.AppConfig;
 import com.educy.AppConfig1;
+import com.educy.AppConfig2;
 import com.educy.Mapper.UserService;
 import com.educy.bean.Customer;
 import com.educy.bean.User;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.sql.Connection;
 
@@ -86,5 +89,21 @@ public class TestAnnotation {
             System.out.println("beanName = " + beanName);
         }
     }
+
+    @Bean
+    /**
+     * 测试内容:测试配置的覆盖
+     */
+    @Test
+    public void test7() {
+        ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig2.class);
+        Customer customer = (Customer) ctx.getBean("customer");
+        System.out.println("customer = " + customer.getId());
+        System.out.println("customer = " + customer.getName());
+
+    }
+
+
+
 
 }
