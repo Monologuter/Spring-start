@@ -12,6 +12,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.*;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.sql.Connection;
@@ -28,7 +29,8 @@ import java.util.Scanner;
  */
 
 @Configuration
-@ComponentScan(basePackages = "com.educy.scan" , excludeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION , value = Service.class)})
+//@ComponentScan(basePackages = "com.educy.scan" , excludeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION , value = Service.class)})
+@ComponentScan(basePackages = "com.educy.scan", useDefaultFilters = false , includeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION , value = {Service.class})})
 public class AppConfig1 {
 
     /**
