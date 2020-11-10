@@ -9,8 +9,4 @@
     <bean id="regAction" class="com.educy.action.RegAction" scope="prototype">
         <property name="userService" ref="userService"/>
     </bean>
-
-
-
-
 </beans>

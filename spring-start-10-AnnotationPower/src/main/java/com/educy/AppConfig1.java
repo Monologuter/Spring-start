@@ -12,10 +12,12 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.*;
+import org.springframework.stereotype.Service;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.Scanner;
 
 
 /**
@@ -26,7 +28,7 @@ import java.sql.SQLException;
  */
 
 @Configuration
-@ComponentScan(basePackages = "com.educy.scan")
+@ComponentScan(basePackages = "com.educy.scan" , excludeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION , value = Service.class)})
 public class AppConfig1 {
 
     /**
