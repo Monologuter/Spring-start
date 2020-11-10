@@ -1,7 +1,9 @@
 import com.educy.AppConfig;
 import com.educy.AppConfig1;
 import com.educy.AppConfig2;
+import com.educy.AppConfig3;
 import com.educy.Mapper.UserService;
+import com.educy.Mapper.UserServiceImpl;
 import com.educy.bean.Customer;
 import com.educy.bean.User;
 import org.junit.Test;
@@ -104,6 +106,15 @@ public class TestAnnotation {
     }
 
 
+    /**
+     * 测试内容:测试纯注解编程u
+     */
+    @Test
+    public void test8() {
+        AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig3.class);
+        com.educy.aop.UserService userServiceImpl = (com.educy.aop.UserService) ctx.getBean("userServiceImpl");
+        userServiceImpl.login();
+        userServiceImpl.register();
 
-
+    }
 }

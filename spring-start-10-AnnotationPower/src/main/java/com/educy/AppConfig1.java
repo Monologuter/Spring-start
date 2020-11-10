@@ -33,16 +33,5 @@ import java.util.Scanner;
 @ComponentScan(basePackages = "com.educy.scan", useDefaultFilters = false , includeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION , value = {Service.class})})
 public class AppConfig1 {
 
-    /**
-     * 测试内容:测试ComponentScan注解
-     */
-    @Test
-    public void test6() {
-        ApplicationContext ctx = new AnnotationConfigApplicationContext("AppConfig1.class");
-        String[] beanDefinitionNames = ctx.getBeanDefinitionNames();
-        for (String beanName : beanDefinitionNames) {
-            System.out.println("beanName = " + beanName);
-        }
-    }
 
 }
