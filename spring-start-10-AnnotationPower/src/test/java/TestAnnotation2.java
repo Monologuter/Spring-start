@@ -30,8 +30,8 @@ public class TestAnnotation2 {
         AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(MybatisAutoConfiguration.class);
         UserDao userDao = (UserDao) ctx.getBean("userDao");
         User user = new User();
-        user.setId(1000);
-        user.setName("我是你爸爸");
+        user.setId(971220);
+        user.setName("华妍");
         userDao.save(user);
 
     }
