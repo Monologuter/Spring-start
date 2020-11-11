@@ -2284,7 +2284,7 @@ Spring开发一个功能的4种形式，虽然开发方式不同，但是最终�
   一组Mapper文件 
   
   ResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
-  Resource[] resources = resolver.getResources("com.baizhi.mapper/*Mapper.xml");
+  Resource[] resources = resolver.getResources("com.baizhi.com.educy.com.educy.com.educy.com.educy.com.educy.mybatis/*Mapper.xml");
   sqlSessionFactoryBean.setMapperLocations(resources)
   ~~~
 
@@ -2299,19 +2299,19 @@ Spring开发一个功能的4种形式，虽然开发方式不同，但是最终�
   mybatis.mapperLocations = com.baizhiedu.mapper/*Mapper.xml
   
   @Component
-  @PropertySource("classpath:mybatis.properties")
+  @PropertySource("classpath:com.educy.com.educy.com.educy.com.educy.com.educy.com.educy.mybatis.properties")
   public class MybatisProperties {
-      @Value("${mybatis.driverClassName}")
+      @Value("${com.educy.com.educy.com.educy.com.educy.com.educy.com.educy.mybatis.driverClassName}")
       private String driverClassName;
-      @Value("${mybatis.url}")
+      @Value("${com.educy.com.educy.com.educy.com.educy.com.educy.com.educy.mybatis.url}")
       private String url;
-      @Value("${mybatis.username}")
+      @Value("${com.educy.com.educy.com.educy.com.educy.com.educy.com.educy.mybatis.username}")
       private String username;
-      @Value("${mybatis.password}")
+      @Value("${com.educy.com.educy.com.educy.com.educy.com.educy.com.educy.mybatis.password}")
       private String password;
-      @Value("${mybatis.typeAliasesPackages}")
+      @Value("${com.educy.com.educy.com.educy.com.educy.com.educy.com.educy.mybatis.typeAliasesPackages}")
       private String typeAliasesPackages;
-      @Value("${mybatis.mapperLocations}")
+      @Value("${com.educy.com.educy.com.educy.com.educy.com.educy.com.educy.mybatis.mapperLocations}")
       private String mapperLocations;
   }
   

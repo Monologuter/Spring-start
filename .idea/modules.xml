@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-start-07-web/spring-start-07-web.iml" filepath="$PROJECT_DIR$/spring-start-07-web/spring-start-07-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-start-08-SpringMybatis/spring-start-08-SpringMybatis.iml" filepath="$PROJECT_DIR$/spring-start-08-SpringMybatis/spring-start-08-SpringMybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-start-09-Annotation/spring-start-09-Annotation.iml" filepath="$PROJECT_DIR$/spring-start-09-Annotation/spring-start-09-Annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-start-10-AnnotationPower/spring-start-10-AnnotationPower.iml" filepath="$PROJECT_DIR$/spring-start-10-AnnotationPower/spring-start-10-AnnotationPower.iml" />
     </modules>
   </component>
 </project>

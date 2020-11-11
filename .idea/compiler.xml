@@ -7,28 +7,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-start-04-DI" />
         <module name="spring-start-07-web" />
         <module name="spring-start-05-AutWrite" />
         <module name="spring-start-03-IOC" />
         <module name="spring-start-08-SpringMybatis" />
         <module name="spring-start-06-AOP" />
-        <module name="spring-start-01" />
+        <module name="spring-start-04-DI" />
         <module name="spring-start-02-hello" />
         <module name="spring-start-09-Annotation" />
+        <module name="spring-start-01" />
+        <module name="spring-start-10-AnnotationPower" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Spring-start" target="1.7" />
-      <module name="spring-start-01" target="1.7" />
-      <module name="spring-start-02-hello" target="1.7" />
-      <module name="spring-start-03-IOC" target="1.7" />
-      <module name="spring-start-04-DI" target="1.7" />
-      <module name="spring-start-05-AutWrite" target="1.7" />
-      <module name="spring-start-06-AOP" target="1.7" />
-      <module name="spring-start-07-web" target="1.8" />
-      <module name="spring-start-08-SpringMybatis" target="1.7" />
-      <module name="spring-start-09-Annotation" target="1.7" />
+      <module name="Spring-start" target="8" />
+      <module name="spring-start-01" target="8" />
+      <module name="spring-start-02-hello" target="8" />
+      <module name="spring-start-03-IOC" target="8" />
+      <module name="spring-start-04-DI" target="8" />
+      <module name="spring-start-05-AutWrite" target="8" />
+      <module name="spring-start-06-AOP" target="8" />
+      <module name="spring-start-07-web" target="8" />
+      <module name="spring-start-08-SpringMybatis" target="8" />
+      <module name="spring-start-09-Annotation" target="8" />
+      <module name="spring-start-10-AnnotationPower" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
