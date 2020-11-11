@@ -19,33 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21b9b8b0-fe5f-4cd6-bd3e-b14fab1ac227" name="Default Changelist" comment="纯注解Mybatis与spring的整合--将配置文件单独抽取出来解耦合">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_logback_extensions_logback_ext_spring_0_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-start-10-AnnotationPower/spring-start-10-AnnotationPower.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-07-web/spring-start-07-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-07-web/spring-start-07-web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-08-SpringMybatis/spring-start-08-SpringMybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-08-SpringMybatis/spring-start-08-SpringMybatis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-09-Annotation/log/log4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-09-Annotation/log/log4j.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-start-10-AnnotationPower/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-start-10-AnnotationPower/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="21b9b8b0-fe5f-4cd6-bd3e-b14fab1ac227" name="Default Changelist" comment="Spring5大结局" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -346,14 +320,7 @@
       <workItem from="1604979736740" duration="24000" />
       <workItem from="1604979858707" duration="13932000" />
       <workItem from="1605011221384" duration="782000" />
-      <workItem from="1605056764864" duration="863000" />
-    </task>
-    <task id="LOCAL-00030" summary="spring内置了日期类型转换器默认的是yyyy/mm/dd">
-      <created>1603704754232</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1603704754232</updated>
+      <workItem from="1605056764864" duration="915000" />
     </task>
     <task id="LOCAL-00031" summary="BeanPostProcessor">
       <created>1603713175260</created>
@@ -691,7 +658,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605006253997</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Spring5大结局">
+      <created>1605058997264</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1605058997265</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -711,7 +685,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Component的衍生注解" />
     <MESSAGE value="测试scope注解" />
     <MESSAGE value="lazy注解" />
     <MESSAGE value="测试生命周期相关的注解" />
@@ -736,7 +709,8 @@
     <MESSAGE value="纯注解aop编程" />
     <MESSAGE value="纯注解Mybatis与spring的整合" />
     <MESSAGE value="纯注解Mybatis与spring的整合--将配置文件单独抽取出来解耦合" />
-    <option name="LAST_COMMIT_MESSAGE" value="纯注解Mybatis与spring的整合--将配置文件单独抽取出来解耦合" />
+    <MESSAGE value="Spring5大结局" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring5大结局" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="189" key="#Inspections" timestamp="1603697801955">
@@ -963,7 +937,7 @@
     <state width="728" height="477" key="SwitcherDM/0.0.1680.1009@0.0.1680.1009" timestamp="1604201226684" />
     <state width="728" height="516" key="SwitcherDM/0.23.1680.985@0.23.1680.985" timestamp="1604997039468" />
     <state width="728" height="536" key="SwitcherDM/0.23.1680.986@0.23.1680.986" timestamp="1604906162458" />
-    <state x="440" y="255" key="Vcs.Push.Dialog.v2" timestamp="1605006256376">
+    <state x="440" y="255" key="Vcs.Push.Dialog.v2" timestamp="1605059000408">
       <screen x="0" y="23" width="1680" height="985" />
     </state>
     <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.0.1680.1004@0.0.1680.1004" timestamp="1603199287694" />
@@ -975,7 +949,7 @@
     <state x="440" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1604891823572" />
     <state x="440" y="235" key="Vcs.Push.Dialog.v2/0.0.1680.998@0.0.1680.998" timestamp="1602127954198" />
     <state x="440" y="235" key="Vcs.Push.Dialog.v2/0.0.1680.999@0.0.1680.999" timestamp="1602079608240" />
-    <state x="440" y="255" key="Vcs.Push.Dialog.v2/0.23.1680.985@0.23.1680.985" timestamp="1605006256376" />
+    <state x="440" y="255" key="Vcs.Push.Dialog.v2/0.23.1680.985@0.23.1680.985" timestamp="1605059000408" />
     <state x="440" y="254" key="Vcs.Push.Dialog.v2/0.23.1680.986@0.23.1680.986" timestamp="1604912246820" />
     <state x="333" y="69" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1604368396652">
       <screen x="0" y="0" width="1680" height="1008" />
